@@ -33,6 +33,36 @@
                       "Compressed":  false
                   },
                   {
+                      "Path":  "gameforge_api.dll",
+                      "Sha256":  "5549c521b77c1f6bee5b5b13566f64453573226b07916934d6c82f0bd25d7734",
+                      "Size":  351296,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "gfclient_proxy0_msvc140.dll",
+                      "Sha256":  "8849ea3bc83a58fbb8702ed49aad384ed0a4bcc7466f1c5c2c22ca7a083f6b5a",
+                      "Size":  102400,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "gf_wrapper.dll",
+                      "Sha256":  "f066f377e3a876e213bc5d67dba4efc68299375ee010c8a9f0a074081219547e",
+                      "Size":  123456,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "gsl.ini",
+                      "Sha256":  "176c3c2146c683384e2b122c6c189e6b403cc8483879745ca70ce3bef0b1569f",
+                      "Size":  81,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "gsplay.dll",
+                      "Sha256":  "4ec2bf27230d4230aacb8b3ff61898078a47b7ffae9b70fd4a5e9231b422839f",
+                      "Size":  489984,
+                      "Compressed":  false
+                  },
+                  {
                       "Path":  "lua51.dll",
                       "Sha256":  "fa4176e44e797785ded7e321a6e6aba53850329b9071f1ae7ee981660634abd5",
                       "Size":  421376,
