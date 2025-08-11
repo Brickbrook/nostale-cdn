@@ -1,7 +1,43 @@
-{
-    "Version":  "1.0.0",
+﻿{
+    "Version":  "1.0.3",
     "BaseUrl":  "https://raw.githubusercontent.com/Brickbrook/nostale-cdn/refs/heads/main/NostaleData/",
     "Files":  [
+                  {
+                      "Path":  "cef.pak",
+                      "Sha256":  "1442115550c4352669a53a41e8e5fc423e58147cbac1ae2320323e4c4b52e17d",
+                      "Size":  2197289,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "cef_100_percent.pak",
+                      "Sha256":  "44ada25776f7c7fd012be6e9e53b1ec74fe78b8448d4d0f6f92964ad15b91c62",
+                      "Size":  296406,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "cef_extensions.pak",
+                      "Sha256":  "be1549d9ca5fe71e3374780202767873a7fb5779959e000bea441f9d2b13b701",
+                      "Size":  3873562,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "chrome_100_percent.pak",
+                      "Sha256":  "731a1eed1be98fa04deca38ce2ba2bdcf3d1cc52da38b8220158f408495b3448",
+                      "Size":  617052,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "chrome_200_percent.pak",
+                      "Sha256":  "2036af7b3b89ff56bd296d4cc4c4f5060afefcb4d03af0ca76a12f557439c182",
+                      "Size":  922095,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "chrome_elf.dll",
+                      "Sha256":  "7e9bb14f30ebb3602e4746a65aefe492085a74c69958f3832c71b3561577e8de",
+                      "Size":  1143296,
+                      "Compressed":  false
+                  },
                   {
                       "Path":  "d3dcompiler_43.dll",
                       "Sha256":  "2f23182ec6f4889397ac4bf03d62536136c5bdba825c7d2c4ef08c827f3a8a1c",
@@ -60,6 +96,31 @@
                       "Path":  "gsplay.dll",
                       "Sha256":  "4ec2bf27230d4230aacb8b3ff61898078a47b7ffae9b70fd4a5e9231b422839f",
                       "Size":  489984,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "icudtl.dat",
+                      "Sha256":  "97b978a19edd4746e9a44d9a44bb4bc519e127a203c247837ec0922f573449e3",
+                      "Size":  10462432,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "libcef.dll",
+                      "Sha256":  "2b55dcde5103969d4db5a48d54e23eee2485ca31e7115043b45d56483fcbbd8a",
+                      "Size":  167478784,
+                      "Compressed":  false,
+                      "Url":  "https://github.com/Brickbrook/nostale-cdn/releases/download/cef-v1/libcef.dll"
+                  },
+                  {
+                      "Path":  "libEGL.dll",
+                      "Sha256":  "1096dc21316546779b085215c44c3b267809d1e510a8d6615d7103a52685680d",
+                      "Size":  372736,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "libGLESv2.dll",
+                      "Sha256":  "25ed8634dde10a90f76ed79bafaaffe009a18839ca57c527ff99f69dadad7edb",
+                      "Size":  6593536,
                       "Compressed":  false
                   },
                   {
@@ -123,6 +184,12 @@
                       "Compressed":  false
                   },
                   {
+                      "Path":  "natives_blob.bin",
+                      "Sha256":  "f07cccaa38aba7fcaa7db3e433a717c1e140b85f5e75fe788783f5226b4c9b4a",
+                      "Size":  410979,
+                      "Compressed":  false
+                  },
+                  {
                       "Path":  "NostaleClientX.exe",
                       "Sha256":  "97d0992a198a894086ae185c2ac915c28a0d8da6ad30b528fabf99d03b603c47",
                       "Size":  4080640,
@@ -171,6 +238,18 @@
                       "Compressed":  false
                   },
                   {
+                      "Path":  "resources.pak",
+                      "Sha256":  "f270aebdbbe8af8862a9d31a53bcdd0146c391cf8391035abc0ed33cc8f578d8",
+                      "Size":  7499933,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "snapshot_blob.bin",
+                      "Sha256":  "9f95f99463aa8e911c9c51e4ccb79998e0193104d8eeb62cfffc5347d03327e0",
+                      "Size":  300184,
+                      "Compressed":  false
+                  },
+                  {
                       "Path":  "steam_api.dll",
                       "Sha256":  "5b6ef90f822209180ed5cafecb90af849ee84bcf6281eeb21be2f89b3b5c89b6",
                       "Size":  219424,
@@ -186,6 +265,690 @@
                       "Path":  "tnt_client_api.dll",
                       "Sha256":  "f32ae516355ad2549801a0e5071a2dd52e01b7d274dea1782d2afc35d370e087",
                       "Size":  127040,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "v8_context_snapshot.bin",
+                      "Sha256":  "3fe7a1226c93c37a2fc312c617bce4138d863edcec3e6f4a08f879591da98cf4",
+                      "Size":  600084,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "vk_swiftshader.dll",
+                      "Sha256":  "5eef83dfefc95e63a73d3396dcf3f76bc2eccc12b72403c7ff56fa29cc5fba6e",
+                      "Size":  4323328,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "vk_swiftshader_icd.json",
+                      "Sha256":  "32d83ff113fef532a9f97e0d2831f8656628ab1c99e9060f0332b1532839afd9",
+                      "Size":  106,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "vulkan-1.dll",
+                      "Sha256":  "a3b365e25608cc1d92b02acb3e9bfae6028d4481c7f3d1f563fafbf7070844e9",
+                      "Size":  787968,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/af.pak",
+                      "Sha256":  "0b86b4dcd4b723fa319d4a4c2e5b29ad2d820228953c950614fcf9cf64f574d8",
+                      "Size":  392589,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/am.pak",
+                      "Sha256":  "5824fbebcef2cb520dc3d1d8bdd7903941be2b46a1551c5e99a303bbe627525b",
+                      "Size":  633671,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/ar.pak",
+                      "Sha256":  "4355db74ca31c1710e2bc7db2a915f77d78a8f6bc3b09664e1ce3743ee948e75",
+                      "Size":  696315,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/bg.pak",
+                      "Sha256":  "da8c39f34ef3c811d52a7f64596dbcd10d97bb171cacf9a77d4d399e6405b8b4",
+                      "Size":  724568,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/bn.pak",
+                      "Sha256":  "908c4f2cd7098494b074965a3e92fadf19f54d0c830b6ce94a5d3b251d667e47",
+                      "Size":  933119,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/ca.pak",
+                      "Sha256":  "03264f0e4e37135ad09a8cd223e34534a52f5a93f57029c29a08459275956b3b",
+                      "Size":  450994,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/cs.pak",
+                      "Sha256":  "5519c796779c84e6cb891e0f0066b3fdf63579f55f5b9a7c853aa5aaaa5fcf3e",
+                      "Size":  454894,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/da.pak",
+                      "Sha256":  "52981f91d1b07e7a286a5574dd8c1220694bd41ada801d1193b535a638fbcb0e",
+                      "Size":  414127,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/de.pak",
+                      "Sha256":  "d777b18fa06a532558a8ea5c1bcfbd4f95084cedfe25edc903be7e3ccbdc476f",
+                      "Size":  448666,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/el.pak",
+                      "Sha256":  "b27d62cb314f90fd5b3a2d24d01bef44951e9378157421af3bff1d865d3893f7",
+                      "Size":  793086,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/en-GB.pak",
+                      "Sha256":  "c3d1326eb170e694e9e4485c2664557e1fa632050b0cc12855ca07597943cfc1",
+                      "Size":  360109,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/en-US.pak",
+                      "Sha256":  "28d73900978d3f56f4b6e626b9566d62ee83b0d043c1060068b8ce5bbf7eb76e",
+                      "Size":  363465,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/es-419.pak",
+                      "Sha256":  "7422e601124efa676a6ab8c26c296073cf4e4ff3ead546630a987756dc95d54d",
+                      "Size":  440682,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/es.pak",
+                      "Sha256":  "a1faf17332bdc8f305a4304fda41726f0c2104731d9faf617044c5db30855ada",
+                      "Size":  439168,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/et.pak",
+                      "Sha256":  "8a600d855355557250fa1568db13f46d507d57616eb87e7be20b327900b674b7",
+                      "Size":  398008,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/fa.pak",
+                      "Sha256":  "18d6d53812588166518dd95c1b1773698af2c1612521e6b92ccf2a066b16f93d",
+                      "Size":  643221,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/fi.pak",
+                      "Sha256":  "f5c72326926f455fa176a236525d1a4ef14c9c2b0e3fb1f735d578bda8c3becd",
+                      "Size":  406093,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/fil.pak",
+                      "Sha256":  "cb8b304849ed5f3180f92177e9d6682319bf7b51415a58def861e67172bca340",
+                      "Size":  455921,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/fr.pak",
+                      "Sha256":  "60b32070ad438188fa7511f799dd84f9469b1b3d330d140d28563957974b4ff7",
+                      "Size":  476806,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/gu.pak",
+                      "Sha256":  "c4b39f25224bccbf28d813bfb49c921c69636bc135ca3fe57375de4efa8f874d",
+                      "Size":  911372,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/he.pak",
+                      "Sha256":  "8f626dd5d8893a35f109a1ea50f89fc4e79dbd0e0ee701d00272f99bcdca9444",
+                      "Size":  566427,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/hi.pak",
+                      "Sha256":  "b6f70eaeb13c09eebc631a9b025802da17f180a428a21487c1e41a915d9a0f53",
+                      "Size":  963852,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/hr.pak",
+                      "Sha256":  "8621001f4584e4ca593a019f08f5e70ecffbffb9e117b84067a8cbaa5d7ca599",
+                      "Size":  439643,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/hu.pak",
+                      "Sha256":  "8bc40c5ea308310a779051c1d859db4472eaca6f31cfaabd715699758c918800",
+                      "Size":  474178,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/id.pak",
+                      "Sha256":  "d19e9a993418e7aacdea150f74e555f96605d24e98f0525e52a27257a4c960fc",
+                      "Size":  389946,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/it.pak",
+                      "Sha256":  "e037a070629bf70a140907aec9230095f4f60a4da0953aad9ba57cfce50b5f0b",
+                      "Size":  438392,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/ja.pak",
+                      "Sha256":  "de0998519fa6d93d0cff10d351c1b32568c040808e425511bc3385c17dfc14ff",
+                      "Size":  532530,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/kn.pak",
+                      "Sha256":  "b65c002de4dc9049084ac9d008044caf53a48d478bb1baa0365475c1327183e6",
+                      "Size":  1043090,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/ko.pak",
+                      "Sha256":  "1831f8e15fa4f8bb7d29dc3e7fbc66942159123cabaa8402f4ebca61b153dfd7",
+                      "Size":  445980,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/lt.pak",
+                      "Sha256":  "3d2a5eab61fbc27dcc97c3dbcd3f380c3f506b166437f7c4c05877b7bc46eaae",
+                      "Size":  478005,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/lv.pak",
+                      "Sha256":  "07655be979638ac617c7f96271a77ca436f3c8ba693a412d976420cda9523424",
+                      "Size":  476258,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/ml.pak",
+                      "Sha256":  "2ead848d3e538dc7078a9e7edf7b7f86aa65b23b20a0faffe1efcf07602e28bd",
+                      "Size":  1083868,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/mr.pak",
+                      "Sha256":  "79629d4d326b8983fa5602698a1c7dec130012259949f08533e76b69d2be8f4f",
+                      "Size":  889760,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/ms.pak",
+                      "Sha256":  "5a14b7975a8d97a985aa85f866be9da93825cef0339d45e4b234cbd3517b2ef8",
+                      "Size":  407109,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/nb.pak",
+                      "Sha256":  "3b56a9fa54544e6308bbb49ca0ceeac0f71f123d9b1d03f366ea0a28c1838bd7",
+                      "Size":  397974,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/nl.pak",
+                      "Sha256":  "9d1b44266cdd92464d36a2dd9a4758369d51c5691a6563a11bc770202c85b6d7",
+                      "Size":  411718,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/pl.pak",
+                      "Sha256":  "fd298b2dc5e4ae0b705f9cddd17a8de7d8ba4fd4ddf29d3ad8a7896f194302d2",
+                      "Size":  459117,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/pt-BR.pak",
+                      "Sha256":  "11d2a13ddb916fa0784466e8ed8111cfd5b4319b2996ef903cda2f8072a0657c",
+                      "Size":  432409,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/pt-PT.pak",
+                      "Sha256":  "5ae3613e1b806ece38d3700a3b99180ff49d44372b4a0adf8a62f5cd0a976f9d",
+                      "Size":  435637,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/ro.pak",
+                      "Sha256":  "583892332ca4b772eeaa00ed3b8150fc0f850039afd1e3e7706b4974eff6a906",
+                      "Size":  446848,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/ru.pak",
+                      "Sha256":  "e8c44869b3023ede1bad3490f878f3ebb10c5cc0d1b86d772991952cbc7e19d6",
+                      "Size":  727306,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/sk.pak",
+                      "Sha256":  "c53c2fcf8129d09e87ed3b873a5048a01b6a09d7c1f30390a086c92e14859d6a",
+                      "Size":  462034,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/sl.pak",
+                      "Sha256":  "2634ce0af8090c0a6238c0727c628cfcd127fca1009d057aea4969c79efa3ed3",
+                      "Size":  443047,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/sr.pak",
+                      "Sha256":  "49b7baf75ec568893c1867261315b47742747d8d90e6f56dcc17826982d77106",
+                      "Size":  682480,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/sv.pak",
+                      "Sha256":  "b49cf828e142ee025419b51fa9ba37213f44c3447428be54d0c94cd586569c86",
+                      "Size":  401797,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/sw.pak",
+                      "Sha256":  "7474c884c9531cfb29189b2d6e734e858a2aba8eb388d98d065557417f72fe81",
+                      "Size":  422048,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/ta.pak",
+                      "Sha256":  "d447381822bd31bfda0908a1c0166db8f6c86fa95ea06152a9b7356840031025",
+                      "Size":  1075348,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/te.pak",
+                      "Sha256":  "d37ef39f0e33a300dc7f4f7ce1a95372701e95a9f19de1b01ae715571650057a",
+                      "Size":  995940,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/th.pak",
+                      "Sha256":  "8c92a414902c52c2bc7225fdaf9c2ef9590663270e6bd734a94418a473cdcd95",
+                      "Size":  837681,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/tr.pak",
+                      "Sha256":  "351b7b8435c4440c373189c4a9974ed2978b6eb2722cf60b24b62693d5bdf77b",
+                      "Size":  429507,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/uk.pak",
+                      "Sha256":  "bd38bb528ab8fe710543b48897164b4bbe5afcfe8c61d785026dc0bd2ec73690",
+                      "Size":  727910,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/ur.pak",
+                      "Sha256":  "de2f504a2206402da811f68c7f303e4fabc962d480bd5680aaace5136a9098a1",
+                      "Size":  636288,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/vi.pak",
+                      "Sha256":  "79fcff1a9d0b013ca0c9cc1ebe023b8f0998a372acc15d9a8e55e3bff1750e40",
+                      "Size":  508034,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/zh-CN.pak",
+                      "Sha256":  "5c5fabf303e9024f866c26c2355cfdc15cb0f725eb4494c1a12f317671034b1c",
+                      "Size":  370357,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/zh-TW.pak",
+                      "Sha256":  "ea83e83ddbda199b132d502a40c2d394219a99a9b73975c6fe9804f703a161e7",
+                      "Size":  370099,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/af.pak",
+                      "Sha256":  "0b86b4dcd4b723fa319d4a4c2e5b29ad2d820228953c950614fcf9cf64f574d8",
+                      "Size":  392589,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/am.pak",
+                      "Sha256":  "5824fbebcef2cb520dc3d1d8bdd7903941be2b46a1551c5e99a303bbe627525b",
+                      "Size":  633671,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/ar.pak",
+                      "Sha256":  "4355db74ca31c1710e2bc7db2a915f77d78a8f6bc3b09664e1ce3743ee948e75",
+                      "Size":  696315,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/bg.pak",
+                      "Sha256":  "da8c39f34ef3c811d52a7f64596dbcd10d97bb171cacf9a77d4d399e6405b8b4",
+                      "Size":  724568,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/bn.pak",
+                      "Sha256":  "908c4f2cd7098494b074965a3e92fadf19f54d0c830b6ce94a5d3b251d667e47",
+                      "Size":  933119,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/ca.pak",
+                      "Sha256":  "03264f0e4e37135ad09a8cd223e34534a52f5a93f57029c29a08459275956b3b",
+                      "Size":  450994,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/cs.pak",
+                      "Sha256":  "5519c796779c84e6cb891e0f0066b3fdf63579f55f5b9a7c853aa5aaaa5fcf3e",
+                      "Size":  454894,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/da.pak",
+                      "Sha256":  "52981f91d1b07e7a286a5574dd8c1220694bd41ada801d1193b535a638fbcb0e",
+                      "Size":  414127,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/de.pak",
+                      "Sha256":  "d777b18fa06a532558a8ea5c1bcfbd4f95084cedfe25edc903be7e3ccbdc476f",
+                      "Size":  448666,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/el.pak",
+                      "Sha256":  "b27d62cb314f90fd5b3a2d24d01bef44951e9378157421af3bff1d865d3893f7",
+                      "Size":  793086,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/en-GB.pak",
+                      "Sha256":  "c3d1326eb170e694e9e4485c2664557e1fa632050b0cc12855ca07597943cfc1",
+                      "Size":  360109,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/en-US.pak",
+                      "Sha256":  "28d73900978d3f56f4b6e626b9566d62ee83b0d043c1060068b8ce5bbf7eb76e",
+                      "Size":  363465,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/es-419.pak",
+                      "Sha256":  "7422e601124efa676a6ab8c26c296073cf4e4ff3ead546630a987756dc95d54d",
+                      "Size":  440682,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/es.pak",
+                      "Sha256":  "a1faf17332bdc8f305a4304fda41726f0c2104731d9faf617044c5db30855ada",
+                      "Size":  439168,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/et.pak",
+                      "Sha256":  "8a600d855355557250fa1568db13f46d507d57616eb87e7be20b327900b674b7",
+                      "Size":  398008,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/fa.pak",
+                      "Sha256":  "18d6d53812588166518dd95c1b1773698af2c1612521e6b92ccf2a066b16f93d",
+                      "Size":  643221,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/fi.pak",
+                      "Sha256":  "f5c72326926f455fa176a236525d1a4ef14c9c2b0e3fb1f735d578bda8c3becd",
+                      "Size":  406093,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/fil.pak",
+                      "Sha256":  "cb8b304849ed5f3180f92177e9d6682319bf7b51415a58def861e67172bca340",
+                      "Size":  455921,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/fr.pak",
+                      "Sha256":  "60b32070ad438188fa7511f799dd84f9469b1b3d330d140d28563957974b4ff7",
+                      "Size":  476806,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/gu.pak",
+                      "Sha256":  "c4b39f25224bccbf28d813bfb49c921c69636bc135ca3fe57375de4efa8f874d",
+                      "Size":  911372,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/he.pak",
+                      "Sha256":  "8f626dd5d8893a35f109a1ea50f89fc4e79dbd0e0ee701d00272f99bcdca9444",
+                      "Size":  566427,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/hi.pak",
+                      "Sha256":  "b6f70eaeb13c09eebc631a9b025802da17f180a428a21487c1e41a915d9a0f53",
+                      "Size":  963852,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/hr.pak",
+                      "Sha256":  "8621001f4584e4ca593a019f08f5e70ecffbffb9e117b84067a8cbaa5d7ca599",
+                      "Size":  439643,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/hu.pak",
+                      "Sha256":  "8bc40c5ea308310a779051c1d859db4472eaca6f31cfaabd715699758c918800",
+                      "Size":  474178,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/id.pak",
+                      "Sha256":  "d19e9a993418e7aacdea150f74e555f96605d24e98f0525e52a27257a4c960fc",
+                      "Size":  389946,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/it.pak",
+                      "Sha256":  "e037a070629bf70a140907aec9230095f4f60a4da0953aad9ba57cfce50b5f0b",
+                      "Size":  438392,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/ja.pak",
+                      "Sha256":  "de0998519fa6d93d0cff10d351c1b32568c040808e425511bc3385c17dfc14ff",
+                      "Size":  532530,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/kn.pak",
+                      "Sha256":  "b65c002de4dc9049084ac9d008044caf53a48d478bb1baa0365475c1327183e6",
+                      "Size":  1043090,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/ko.pak",
+                      "Sha256":  "1831f8e15fa4f8bb7d29dc3e7fbc66942159123cabaa8402f4ebca61b153dfd7",
+                      "Size":  445980,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/lt.pak",
+                      "Sha256":  "3d2a5eab61fbc27dcc97c3dbcd3f380c3f506b166437f7c4c05877b7bc46eaae",
+                      "Size":  478005,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/lv.pak",
+                      "Sha256":  "07655be979638ac617c7f96271a77ca436f3c8ba693a412d976420cda9523424",
+                      "Size":  476258,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/ml.pak",
+                      "Sha256":  "2ead848d3e538dc7078a9e7edf7b7f86aa65b23b20a0faffe1efcf07602e28bd",
+                      "Size":  1083868,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/mr.pak",
+                      "Sha256":  "79629d4d326b8983fa5602698a1c7dec130012259949f08533e76b69d2be8f4f",
+                      "Size":  889760,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/ms.pak",
+                      "Sha256":  "5a14b7975a8d97a985aa85f866be9da93825cef0339d45e4b234cbd3517b2ef8",
+                      "Size":  407109,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/nb.pak",
+                      "Sha256":  "3b56a9fa54544e6308bbb49ca0ceeac0f71f123d9b1d03f366ea0a28c1838bd7",
+                      "Size":  397974,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/nl.pak",
+                      "Sha256":  "9d1b44266cdd92464d36a2dd9a4758369d51c5691a6563a11bc770202c85b6d7",
+                      "Size":  411718,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/pl.pak",
+                      "Sha256":  "fd298b2dc5e4ae0b705f9cddd17a8de7d8ba4fd4ddf29d3ad8a7896f194302d2",
+                      "Size":  459117,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/pt-BR.pak",
+                      "Sha256":  "11d2a13ddb916fa0784466e8ed8111cfd5b4319b2996ef903cda2f8072a0657c",
+                      "Size":  432409,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/pt-PT.pak",
+                      "Sha256":  "5ae3613e1b806ece38d3700a3b99180ff49d44372b4a0adf8a62f5cd0a976f9d",
+                      "Size":  435637,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/ro.pak",
+                      "Sha256":  "583892332ca4b772eeaa00ed3b8150fc0f850039afd1e3e7706b4974eff6a906",
+                      "Size":  446848,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/ru.pak",
+                      "Sha256":  "e8c44869b3023ede1bad3490f878f3ebb10c5cc0d1b86d772991952cbc7e19d6",
+                      "Size":  727306,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/sk.pak",
+                      "Sha256":  "c53c2fcf8129d09e87ed3b873a5048a01b6a09d7c1f30390a086c92e14859d6a",
+                      "Size":  462034,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/sl.pak",
+                      "Sha256":  "2634ce0af8090c0a6238c0727c628cfcd127fca1009d057aea4969c79efa3ed3",
+                      "Size":  443047,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/sr.pak",
+                      "Sha256":  "49b7baf75ec568893c1867261315b47742747d8d90e6f56dcc17826982d77106",
+                      "Size":  682480,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/sv.pak",
+                      "Sha256":  "b49cf828e142ee025419b51fa9ba37213f44c3447428be54d0c94cd586569c86",
+                      "Size":  401797,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/sw.pak",
+                      "Sha256":  "7474c884c9531cfb29189b2d6e734e858a2aba8eb388d98d065557417f72fe81",
+                      "Size":  422048,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/ta.pak",
+                      "Sha256":  "d447381822bd31bfda0908a1c0166db8f6c86fa95ea06152a9b7356840031025",
+                      "Size":  1075348,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/te.pak",
+                      "Sha256":  "d37ef39f0e33a300dc7f4f7ce1a95372701e95a9f19de1b01ae715571650057a",
+                      "Size":  995940,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/th.pak",
+                      "Sha256":  "8c92a414902c52c2bc7225fdaf9c2ef9590663270e6bd734a94418a473cdcd95",
+                      "Size":  837681,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/tr.pak",
+                      "Sha256":  "351b7b8435c4440c373189c4a9974ed2978b6eb2722cf60b24b62693d5bdf77b",
+                      "Size":  429507,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/uk.pak",
+                      "Sha256":  "bd38bb528ab8fe710543b48897164b4bbe5afcfe8c61d785026dc0bd2ec73690",
+                      "Size":  727910,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/ur.pak",
+                      "Sha256":  "de2f504a2206402da811f68c7f303e4fabc962d480bd5680aaace5136a9098a1",
+                      "Size":  636288,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/vi.pak",
+                      "Sha256":  "79fcff1a9d0b013ca0c9cc1ebe023b8f0998a372acc15d9a8e55e3bff1750e40",
+                      "Size":  508034,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/zh-CN.pak",
+                      "Sha256":  "5c5fabf303e9024f866c26c2355cfdc15cb0f725eb4494c1a12f317671034b1c",
+                      "Size":  370357,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "locales/locales/zh-TW.pak",
+                      "Sha256":  "ea83e83ddbda199b132d502a40c2d394219a99a9b73975c6fe9804f703a161e7",
+                      "Size":  370099,
                       "Compressed":  false
                   }
               ]
