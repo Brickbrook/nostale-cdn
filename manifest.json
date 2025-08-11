@@ -1,12 +1,126 @@
-{
-  "Version": "1.0.0",
-  "BaseUrl": "https://raw.githubusercontent.com/Brickbrook/nostale-cdn/refs/heads/main/NostaleData/",
-  "Files": [
-    {
-      "Path": "readme.txt",
-      "Sha256": "F2CA1BB6C7E907D06DAFE4687E579FCE76B37E4E93B7605022DA52E6CCC26FD2",
-      "Size": 5,
-      "Compressed": false
-    }
-  ]
+﻿{
+    "Version":  "1.0.0",
+    "BaseUrl":  "https://raw.githubusercontent.com/Brickbrook/nostale-cdn/refs/heads/main/NostaleData/",
+    "Files":  [
+                  {
+                      "Path":  "d3dcompiler_43.dll",
+                      "Sha256":  "2f23182ec6f4889397ac4bf03d62536136c5bdba825c7d2c4ef08c827f3a8a1c",
+                      "Size":  2106216,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "d3dcompiler_47.dll",
+                      "Sha256":  "c2c7ca6505ad10826e6b92319ce7aa355392b0cbd092a0fb8d4381c2d31268bf",
+                      "Size":  4108752,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "ewdl.ews",
+                      "Sha256":  "a70d571cd675c97c9eeb4a234dba1d667ffb54ec3bb14defb36b3e2f605ae257",
+                      "Size":  2319568,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "EWSF.EWS",
+                      "Sha256":  "b87491731f2ccea1a892ed9fd6101cf9700dc3700a6c3499a081a0b1ad6225ba",
+                      "Size":  1741824,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "ewss.ews",
+                      "Sha256":  "d59f469d31736fda2909ba1a6b2b2e586b47194393edeab7e3010f97fd1dff71",
+                      "Size":  473088,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "lua51.dll",
+                      "Sha256":  "fa4176e44e797785ded7e321a6e6aba53850329b9071f1ae7ee981660634abd5",
+                      "Size":  421376,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "mss32.dll",
+                      "Sha256":  "3fe1291d2d8deeee9f95108d57068d5ac3c8e81d9365f456b662ffbb3c622df2",
+                      "Size":  450560,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "mssdolby.flt",
+                      "Sha256":  "79d76436cd0f7b8db45e924c446a6308af19281cb4a16da45b71de20210ff06d",
+                      "Size":  7680,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "mssds3d.flt",
+                      "Sha256":  "ee0941e0a903c1db3521c186120788629b8d7d08e549557c3eb39830c3b3c826",
+                      "Size":  12800,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "mssdsp.flt",
+                      "Sha256":  "dbe0bd054a4c22e1f3ee6f71329de670908117e4b7d2ffcfdbd03cb7d60a4850",
+                      "Size":  56832,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "msseax.flt",
+                      "Sha256":  "dab380b2a5e826cf7944fa3f3ee72fefaac81e1f3abee58f3c3f93e1b058fd5c",
+                      "Size":  59392,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "mssmp3.asi",
+                      "Sha256":  "0fb784a9cc9826a9ec2412b7d71453b917af6c74442647f38061512e2c3a05bb",
+                      "Size":  95744,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "mssogg.asi",
+                      "Sha256":  "6e9189f85f7049e4b5475d597a89039d516c2682bf7dc04b6003c5cebbae10f4",
+                      "Size":  99840,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "msssrs.flt",
+                      "Sha256":  "ca698e86c72166654c0bfcaecff472a6fd7fa15e7a0c927c8b303d1d8042ff40",
+                      "Size":  12800,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "mssvoice.asi",
+                      "Sha256":  "c0163aaf5c6ac0b252261dfbf718c32de02a34efc97761d6612bda3d529b772e",
+                      "Size":  153600,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleClientX.exe",
+                      "Sha256":  "97d0992a198a894086ae185c2ac915c28a0d8da6ad30b528fabf99d03b603c47",
+                      "Size":  4080640,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleEU.ini",
+                      "Sha256":  "bc5f22992814f07fbcba6f88da73e1d7d7b7e334acb44044a3c94cbb4e631af1",
+                      "Size":  330,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NtConfig.exe",
+                      "Sha256":  "56b29eb983619fd28737145a10338fd6b7e4fda49fd8419aa168f2612b33e427",
+                      "Size":  951856,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "Olympus.dll",
+                      "Sha256":  "647669d459cd55e3a9afc1286d62f329e58ce246e8e6e7e605585537e447d6fa",
+                      "Size":  3152896,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "OlympusConfig.dat",
+                      "Sha256":  "ee37a5a2142d0b3647a9400bc441f016f3b85db21cd9139b61d1febde548ec66",
+                      "Size":  45,
+                      "Compressed":  false
+                  }
+              ]
 }
