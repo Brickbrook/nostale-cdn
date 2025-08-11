@@ -1,14 +1,12 @@
 {
   "Version": "1.0.0",
-  "BaseUrl": "https://raw.githubusercontent.com/Brickbrook/nostale-cdn/refs/heads/main/NostaleData/
-",
+  "BaseUrl": "https://raw.githubusercontent.com/Brickbrook/nostale-cdn/refs/heads/main/NostaleData/",
   "Files": [
     {
       "Path": "readme.txt",
-      "Sha256": "REMPLACE_PAR_TON_HASH_SHA256",
+      "Sha256": "ABC123DEF456...METTRE_LE_VRAI_HASH_ICI...",
       "Size": 17,
       "Compressed": false
     }
   ]
 }
-
