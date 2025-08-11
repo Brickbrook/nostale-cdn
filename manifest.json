@@ -105,6 +105,12 @@
                       "Compressed":  false
                   },
                   {
+                      "Path":  "NPGLIB.dll",
+                      "Sha256":  "52b612be64a65de3225d59a687b4ee6304453d90d860fee69b11502941ab27e7",
+                      "Size":  139264,
+                      "Compressed":  false
+                  },
+                  {
                       "Path":  "NtConfig.exe",
                       "Sha256":  "56b29eb983619fd28737145a10338fd6b7e4fda49fd8419aa168f2612b33e427",
                       "Size":  951856,
@@ -120,6 +126,36 @@
                       "Path":  "OlympusConfig.dat",
                       "Sha256":  "ee37a5a2142d0b3647a9400bc441f016f3b85db21cd9139b61d1febde548ec66",
                       "Size":  45,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "psw_steam.dll",
+                      "Sha256":  "3b38a9507c87d735981fab00bd0351f0cce06c74b410f2cd32d624765f9ac811",
+                      "Size":  242240,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "psw_tnt.dll",
+                      "Sha256":  "a1d37add5d91838c738be1f817b014b4c93c0981dca9434448b1969cd944031e",
+                      "Size":  250432,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "steam_api.dll",
+                      "Sha256":  "5b6ef90f822209180ed5cafecb90af849ee84bcf6281eeb21be2f89b3b5c89b6",
+                      "Size":  219424,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "steam_wrapper.dll",
+                      "Sha256":  "b0c20c6dd7e91d1ac24405b074083efe7052f5c7696ed8e4266437efa5762928",
+                      "Size":  126528,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "tnt_client_api.dll",
+                      "Sha256":  "f32ae516355ad2549801a0e5071a2dd52e01b7d274dea1782d2afc35d370e087",
+                      "Size":  127040,
                       "Compressed":  false
                   }
               ]
