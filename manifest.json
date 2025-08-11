@@ -1,6 +1,7 @@
 {
   "Version": "1.0.0",
-  "BaseUrl": "https://raw.githubusercontent.com/<ton_user>/<repo>/main/NostaleData/",
+  "BaseUrl": "https://raw.githubusercontent.com/Brickbrook/nostale-cdn/refs/heads/main/NostaleData/
+",
   "Files": [
     {
       "Path": "readme.txt",
@@ -10,3 +11,4 @@
     }
   ]
 }
+
