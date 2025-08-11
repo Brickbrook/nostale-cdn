@@ -4,8 +4,8 @@
   "Files": [
     {
       "Path": "readme.txt",
-      "Sha256": "ABC123DEF456...METTRE_LE_VRAI_HASH_ICI...",
-      "Size": 17,
+      "Sha256": "F2CA1BB6C7E907D06DAFE4687E579FCE76B37E4E93B7605022DA52E6CCC26FD2",
+      "Size": 5,
       "Compressed": false
     }
   ]
