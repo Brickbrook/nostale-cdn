@@ -1,5 +1,5 @@
 ﻿{
-    "Version":  "1.0.3",
+    "Version":  "1.0.5",
     "BaseUrl":  "https://raw.githubusercontent.com/Brickbrook/nostale-cdn/refs/heads/main/NostaleData/",
     "Files":  [
                   {
@@ -39,6 +39,18 @@
                       "Compressed":  false
                   },
                   {
+                      "Path":  "client-logs.txt",
+                      "Sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                      "Size":  0,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "Config.dat",
+                      "Sha256":  "139df24bf380406f04f471e2bb0cbf367c14b7e267a544b54d07bc73e2bdbb4c",
+                      "Size":  1024,
+                      "Compressed":  false
+                  },
+                  {
                       "Path":  "d3dcompiler_43.dll",
                       "Sha256":  "2f23182ec6f4889397ac4bf03d62536136c5bdba825c7d2c4ef08c827f3a8a1c",
                       "Size":  2106216,
@@ -48,6 +60,12 @@
                       "Path":  "d3dcompiler_47.dll",
                       "Sha256":  "c2c7ca6505ad10826e6b92319ce7aa355392b0cbd092a0fb8d4381c2d31268bf",
                       "Size":  4108752,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "devtools_resources.pak",
+                      "Sha256":  "47adc3d8fcbee88613160044900cb6ada83385675983aa70e4b869eae9def4bc",
+                      "Size":  4405316,
                       "Compressed":  false
                   },
                   {
@@ -103,13 +121,6 @@
                       "Sha256":  "97b978a19edd4746e9a44d9a44bb4bc519e127a203c247837ec0922f573449e3",
                       "Size":  10462432,
                       "Compressed":  false
-                  },
-                  {
-                      "Path":  "libcef.dll",
-                      "Sha256":  "2b55dcde5103969d4db5a48d54e23eee2485ca31e7115043b45d56483fcbbd8a",
-                      "Size":  167478784,
-                      "Compressed":  false,
-                      "Url":  "https://github.com/Brickbrook/nostale-cdn/releases/download/cef-v1/libcef.dll"
                   },
                   {
                       "Path":  "libEGL.dll",
@@ -214,6 +225,12 @@
                       "Compressed":  false
                   },
                   {
+                      "Path":  "Nyt.dll",
+                      "Sha256":  "022214d1fc2c8e839289b4358f27974bd0a694d10447bc40b2723fcff4c1ed45",
+                      "Size":  172032,
+                      "Compressed":  false
+                  },
+                  {
                       "Path":  "Olympus.dll",
                       "Sha256":  "647669d459cd55e3a9afc1286d62f329e58ce246e8e6e7e605585537e447d6fa",
                       "Size":  3152896,
@@ -289,6 +306,12 @@
                       "Path":  "vulkan-1.dll",
                       "Sha256":  "a3b365e25608cc1d92b02acb3e9bfae6028d4481c7f3d1f563fafbf7070844e9",
                       "Size":  787968,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "wakeup.dat",
+                      "Sha256":  "298a907c3eaea7bb3517f28a8e1f8f1becc48fc6b270aa29661d9997498527bc",
+                      "Size":  88064,
                       "Compressed":  false
                   },
                   {
@@ -950,6 +973,3493 @@
                       "Sha256":  "ea83e83ddbda199b132d502a40c2d394219a99a9b73975c6fe9804f703a161e7",
                       "Size":  370099,
                       "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/1gdpRmwPGw2X9m3fmE4CRiamPBxXBLYs.olr",
+                      "Sha256":  "17679935d80ddad566972c1339a50a96de1f2548653bec8f2336681562af0d7d",
+                      "Size":  68227,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/cFiQ7lHUICPoB5LgtT02ELpFNusok_CZ.olr",
+                      "Sha256":  "b3e280c0fbdef4b339dab36a141bdf258c40e55166275d687c5f9b914cb989a7",
+                      "Size":  3130760,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/cFiQ7lHUICPoB5LgtT02ELpFNusok_DE.olr",
+                      "Sha256":  "87c0421c09bd894972fe78497aa0cc722412f0ca876bfb6e7a9d5fe48123f087",
+                      "Size":  3595459,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/cFiQ7lHUICPoB5LgtT02ELpFNusok_ES.olr",
+                      "Sha256":  "8472c90847ef55f4765e3b3cdf2ab4d16cc44fcbe27c23dc774478ad4786cb41",
+                      "Size":  3536740,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/cFiQ7lHUICPoB5LgtT02ELpFNusok_FR.olr",
+                      "Sha256":  "15f1ecb171566eaef8e3727b1241c39b7478b484b28d482077ad29e2bb90b2b6",
+                      "Size":  3715608,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/cFiQ7lHUICPoB5LgtT02ELpFNusok_IT.olr",
+                      "Sha256":  "69720dbcfed58385c7050bbe3b7212b3658c7c415df70f99527a6b47a4fa5952",
+                      "Size":  3580454,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/cFiQ7lHUICPoB5LgtT02ELpFNusok_PL.olr",
+                      "Sha256":  "b8002255c59abae6e5a1adf920c9786fef5735c1a963916062d016f29169bece",
+                      "Size":  3384908,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/cFiQ7lHUICPoB5LgtT02ELpFNusok_TR.olr",
+                      "Sha256":  "4587a79e25b6beb969515998f4452a4b417a19d8b5f71e453f67bacc5890bffe",
+                      "Size":  3209841,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/cFiQ7lHUICPoB5LgtT02ELpFNusok_UK.olr",
+                      "Sha256":  "2bd34faf4da9be522f1e1c35f29827fc4d02d1a32f935df5623d88d60f4aa484",
+                      "Size":  3266501,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/di7LqjZYBMSScqcWFfNtkhC1hcj_CZ00.olr",
+                      "Sha256":  "a08406b00ef6831af42b20d557c002439cdfe11e621e9ea3c6eb0c8063c37ce3",
+                      "Size":  12583281,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/di7LqjZYBMSScqcWFfNtkhC1hcj_CZ01.olr",
+                      "Sha256":  "d8a178e1f1ee47a8f1a69ced4bccaa03628d47158c5e34f44fa37009778d7cc5",
+                      "Size":  13631886,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/di7LqjZYBMSScqcWFfNtkhC1hcj_CZ02.olr",
+                      "Sha256":  "922144207e1b2290d707c59240508d3270389cb299dba13d3b45a76caf82cc96",
+                      "Size":  7897399,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/di7LqjZYBMSScqcWFfNtkhC1hcj_CZ03.olr",
+                      "Sha256":  "121b7fa008e193edd4b8c4649fd1e2a169692f69dcb57bf3c1ef012bd238e3d3",
+                      "Size":  6291651,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/di7LqjZYBMSScqcWFfNtkhC1hcj_DE00.olr",
+                      "Sha256":  "dc27d1df057eb4b23bb95d9caf4236c5b4dbe58a56865d0561335bb93aa87c26",
+                      "Size":  12583281,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/di7LqjZYBMSScqcWFfNtkhC1hcj_DE01.olr",
+                      "Sha256":  "d8a178e1f1ee47a8f1a69ced4bccaa03628d47158c5e34f44fa37009778d7cc5",
+                      "Size":  13631886,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/di7LqjZYBMSScqcWFfNtkhC1hcj_DE02.olr",
+                      "Sha256":  "1e8d0099dd71da820da34b28753d37c683e71a7daf48c28ebeb7a7845bc98f3b",
+                      "Size":  7897399,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/di7LqjZYBMSScqcWFfNtkhC1hcj_DE03.olr",
+                      "Sha256":  "0bc8b87c848ecffb7b3ea2e30ea67538e5dd98f11182099918d0384fb4b5a57d",
+                      "Size":  6291651,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/di7LqjZYBMSScqcWFfNtkhC1hcj_ES00.olr",
+                      "Sha256":  "2aa9fe985d92204c0ca49ac82ea71e92b5d35ba667e56fbe7759a9a1c67fab75",
+                      "Size":  12583281,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/di7LqjZYBMSScqcWFfNtkhC1hcj_ES01.olr",
+                      "Sha256":  "d8a178e1f1ee47a8f1a69ced4bccaa03628d47158c5e34f44fa37009778d7cc5",
+                      "Size":  13631886,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/di7LqjZYBMSScqcWFfNtkhC1hcj_ES02.olr",
+                      "Sha256":  "7e0f3d10e1fe6dd984d49183e4e0e145ad7d800359bb4606837244771c58a6d6",
+                      "Size":  7897399,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/di7LqjZYBMSScqcWFfNtkhC1hcj_ES03.olr",
+                      "Sha256":  "2b5fc10dff1d90f06af4d2b23b14d6052f60dbb3bf062535b901dec7028ef872",
+                      "Size":  6291651,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/di7LqjZYBMSScqcWFfNtkhC1hcj_FR00.olr",
+                      "Sha256":  "4249e5610fe2fe6ee6c7d8baa9e8cc50cbfe4774716c7ac36ed2f4a9dcf02a89",
+                      "Size":  12583281,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/di7LqjZYBMSScqcWFfNtkhC1hcj_FR01.olr",
+                      "Sha256":  "d8a178e1f1ee47a8f1a69ced4bccaa03628d47158c5e34f44fa37009778d7cc5",
+                      "Size":  13631886,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/di7LqjZYBMSScqcWFfNtkhC1hcj_FR02.olr",
+                      "Sha256":  "0da62b233abac8db5a12a20ce3457e92b2b56939ed04373c808aa181b825d1eb",
+                      "Size":  7897399,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/di7LqjZYBMSScqcWFfNtkhC1hcj_FR03.olr",
+                      "Sha256":  "63487702509741513a2b5b8bf8d665000a86f42d4512575401b712d40848398d",
+                      "Size":  6291651,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/di7LqjZYBMSScqcWFfNtkhC1hcj_IT00.olr",
+                      "Sha256":  "dc6d59860f6d67ffd112aa5e57553f1cd410336e7b67a288163ec8824c9bd188",
+                      "Size":  12583281,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/di7LqjZYBMSScqcWFfNtkhC1hcj_IT01.olr",
+                      "Sha256":  "d8a178e1f1ee47a8f1a69ced4bccaa03628d47158c5e34f44fa37009778d7cc5",
+                      "Size":  13631886,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/di7LqjZYBMSScqcWFfNtkhC1hcj_IT02.olr",
+                      "Sha256":  "8008213239b159323ba3aba5765f93dea484e9448cfcad5abfca5ec9d420ccfd",
+                      "Size":  7897399,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/di7LqjZYBMSScqcWFfNtkhC1hcj_IT03.olr",
+                      "Sha256":  "c77cc4a08f96e82b4caf73dcaa15b283a232b6ad00d4c6cfb79ec47aa4ba9b99",
+                      "Size":  6291651,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/di7LqjZYBMSScqcWFfNtkhC1hcj_PL00.olr",
+                      "Sha256":  "d5e8f74943ac2980faa8021cd43b6d2ad91843d191deab4349ee32b2a3f6f92e",
+                      "Size":  12583281,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/di7LqjZYBMSScqcWFfNtkhC1hcj_PL01.olr",
+                      "Sha256":  "d8a178e1f1ee47a8f1a69ced4bccaa03628d47158c5e34f44fa37009778d7cc5",
+                      "Size":  13631886,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/di7LqjZYBMSScqcWFfNtkhC1hcj_PL02.olr",
+                      "Sha256":  "2bf8a6d02c3abf5e9771c521b8d0e70df0ccdd52f7120da829276b3e0d951bc1",
+                      "Size":  7897399,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/di7LqjZYBMSScqcWFfNtkhC1hcj_PL03.olr",
+                      "Sha256":  "2ba13c8da01fcebe9775e362f525ddb89afaa16a424794dccc95e3e6f05a88fc",
+                      "Size":  6291651,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/di7LqjZYBMSScqcWFfNtkhC1hcj_TR00.olr",
+                      "Sha256":  "200a3a21a18496852547bb1101e7d75e4fa2de9a5f7c468c02abab195f846b04",
+                      "Size":  12583281,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/di7LqjZYBMSScqcWFfNtkhC1hcj_TR01.olr",
+                      "Sha256":  "d8a178e1f1ee47a8f1a69ced4bccaa03628d47158c5e34f44fa37009778d7cc5",
+                      "Size":  13631886,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/di7LqjZYBMSScqcWFfNtkhC1hcj_TR02.olr",
+                      "Sha256":  "8c33dba1110a1f43a9e743b3cb4f20ad23e2d6a66b6366aac8a457f7df9178d2",
+                      "Size":  7897399,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/di7LqjZYBMSScqcWFfNtkhC1hcj_TR03.olr",
+                      "Sha256":  "d825852bbdb72aa4e4c304f11f821f15b749924b3a1f1a9b77e478ef3b90a8c4",
+                      "Size":  6291651,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/di7LqjZYBMSScqcWFfNtkhC1hcj_UK00.olr",
+                      "Sha256":  "f37adfebbb0ddabe74046a6174447e99cec222661cd26a99ae04141ecd128e12",
+                      "Size":  12583281,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/di7LqjZYBMSScqcWFfNtkhC1hcj_UK01.olr",
+                      "Sha256":  "d8a178e1f1ee47a8f1a69ced4bccaa03628d47158c5e34f44fa37009778d7cc5",
+                      "Size":  13631886,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/di7LqjZYBMSScqcWFfNtkhC1hcj_UK02.olr",
+                      "Sha256":  "8a893d6e2f8b5385a7a290626186b506185415a89bec6d390f0a2f90d59df5a9",
+                      "Size":  7897399,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/di7LqjZYBMSScqcWFfNtkhC1hcj_UK03.olr",
+                      "Sha256":  "5b128bbce4b391e18741b9bcd82e600613fce35be62dd8e9e903f11d15a26d54",
+                      "Size":  6291651,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/GVNqNTzXNdO3W6ZmpcGTxl2321HYfEP2.olr",
+                      "Sha256":  "5e31086d36d18dc5a771c85c7d76fa20484ae21a31a84cd21f1c83812b121ded",
+                      "Size":  17735017,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/hTR63v0hXuceAqG8RP2dawo3icpagmvu.olr",
+                      "Sha256":  "a59d3a4091f0ca22828b7f160f0a0c4b8f56708b293647ffab1fb15ea83ea537",
+                      "Size":  10746928,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/jBBS1MCj6gy6U8nNTCfYASdHw2oEgrJU.olr",
+                      "Sha256":  "83ab4c5756b93df7d900db4b7df6195afc9d900c32e0ac3df699b0eafd09eb8b",
+                      "Size":  268134,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/lGgGgHJkjOqZNrc1wN1U.olr",
+                      "Sha256":  "66c9f082aada52f50fe2c2ddcc9e23e53b4b4f115dbde95bcbc8825fab977682",
+                      "Size":  35275,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NScliData.NOS",
+                      "Sha256":  "1c20a27e0e3abd9f5c86af10ac8ec3fdf8cf65762c6d8fe7c3580e95f0fd4d82",
+                      "Size":  289675,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NSedData.NOS",
+                      "Sha256":  "44b2d3c81dc5f87a748beedd9d8fc3e162ca3f822a8497b08c0844d386003f12",
+                      "Size":  2529,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NSemData.NOS",
+                      "Sha256":  "73799b1ecc96a6158a5a21bcd28014e4c218f9e3851facee62370c0588238ab8",
+                      "Size":  2956,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NSesData.NOS",
+                      "Sha256":  "1acfcf65d6ac01f86ad62cdd45947cfc06f153f1a3b05bc58be19eb92ee06e6e",
+                      "Size":  1955,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NSetcData.NOS",
+                      "Sha256":  "a55cd3bd4657041a06e9f7d08074e3bbc1e1b9eebd30986da40db103df83dab8",
+                      "Size":  1031,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NSgrdData06.NOS",
+                      "Sha256":  "a150d51b4ae83c0c1050ba300fb735151810b6e733fdc5c891cc0b034251c2a0",
+                      "Size":  224436,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NSmcData.NOS",
+                      "Sha256":  "80c8977c9c2202fd989aa9bd453f101e36ed8b42cfcc74d8941ace62191debfc",
+                      "Size":  99494,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NSmnData.NOS",
+                      "Sha256":  "80346eb877b55a971677d2ca038653f04a52129727ffdda8f63ddae531cda7e7",
+                      "Size":  520435,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NSmpData00.NOS",
+                      "Sha256":  "8d797073bbad6cd76434064408d9773fe3d81f15baf3aadbbaa95106f4b4abfe",
+                      "Size":  131116561,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NSmpData01.NOS",
+                      "Sha256":  "7b2e2b2e6b6833a70d8437364cdab983602920caa0a2aa828b955e8844138e10",
+                      "Size":  154875010,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NSmpData02.NOS",
+                      "Sha256":  "719d960205a4cd4fafcfb724a33f74372f4911e37cc5595cbc646f32eaabe4c3",
+                      "Size":  99803683,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NSmpData03.NOS",
+                      "Sha256":  "06053e0dab877dab1c893a990c5f1c1f9fe56f90565a1bac1b80909a3349b4cd",
+                      "Size":  99449035,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NSmpData04.NOS",
+                      "Sha256":  "b092f9b0fedd29f7c4470009b0f5ba669032a6c63ca7b4ff7d28507d4a6118ca",
+                      "Size":  171988939,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NSmpData05.NOS",
+                      "Sha256":  "6909db8c9cf2fbf8911f657d9842f943aed59c369d679821559a2428a0976001",
+                      "Size":  111303426,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NSmpData06.NOS",
+                      "Sha256":  "f324000546266f4f86b50e141e3ad5287c60764819c866849a70ff23a28178b1",
+                      "Size":  154780944,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NSmpData07.NOS",
+                      "Sha256":  "49809fca6dd7095d499e633626c68b99e046194eb9bfa740d6d64a13336c0ee6",
+                      "Size":  108159544,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NSmpData08.NOS",
+                      "Sha256":  "194010a94fd58e2cc78bc585f2dc0af3de58aaea68af5b44bdf115855cf98167",
+                      "Size":  109066941,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NSmpData09.NOS",
+                      "Sha256":  "671be877ef1520f1b12aa6a88a76c3651ad974891adbeb4a24fff116c985207e",
+                      "Size":  65411824,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NSmpData0A.NOS",
+                      "Sha256":  "4dfdfa1510e913c5e6d2468f3a5c1d039d8d84ef1778230029620b56f9e53948",
+                      "Size":  18912981,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NSmpData0B.NOS",
+                      "Sha256":  "0f13c812485c34e944aa0d76584b52325abf7d20648622fa020cb1eab4108190",
+                      "Size":  41004066,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NSmpData0C.NOS",
+                      "Sha256":  "7277152e15816bc5410cab0405e6cd996bcef7d5f837a9fb9a5736c2554d4ebc",
+                      "Size":  42665790,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NSmpData0D.NOS",
+                      "Sha256":  "6bfaf20d07364b28598b8fb3160f3eeaf6e4117889a0dd50c5a09b590758a0e9",
+                      "Size":  90112241,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NSmpData0E.NOS",
+                      "Sha256":  "76a622f579dbee1ead07935e5e7e01e3aa4c042a4ebaa10f1ff65b4a07f642cd",
+                      "Size":  81557226,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NSmpData0F.NOS",
+                      "Sha256":  "cb1b9316b49dd6d7f932f01fb92923dbb5fb5111a6a42fa509ffeeeb7188c18b",
+                      "Size":  100839126,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NSpmData.NOS",
+                      "Sha256":  "a8b9bfb5fe390fc0c5c9b1a1f042cc172753776fe4c46eee331f61584259d59b",
+                      "Size":  37349,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NStgData00.NOS",
+                      "Sha256":  "4b43e363e54c6e3ef7a1432e228c4ca948aa1c24a4683b931f2e8831c75a10c3",
+                      "Size":  42117174,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NStgData01.NOS",
+                      "Sha256":  "5e653cb0123d630237d515ab966bb228e3263f007282b1b1dd5dab4749304259",
+                      "Size":  45202745,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NStgData02.NOS",
+                      "Sha256":  "4b8f6b3cd73f50232c3f52a8296e5a128914487068295b3674a96f8575f506ab",
+                      "Size":  40894966,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NStgData03.NOS",
+                      "Sha256":  "5197d28a20184b32405bd5c3c297b20c17e299442e822c98a52130a0ebf90326",
+                      "Size":  45903479,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NStkData.NOS",
+                      "Sha256":  "08d787847ed3e79194cc43b20aedf90c6091ff2ee8bdc4e8b17042dfcac7b335",
+                      "Size":  12858,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NStpData00.NOS",
+                      "Sha256":  "5e4ef74933202991d1fd3cc7b828a5fa68790673a6701ba82abc1acadde9d208",
+                      "Size":  44855736,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NStpData01.NOS",
+                      "Sha256":  "0d8bb03cbb55fb5cce368898931243162acd16b4db6eb1b31575f111668ea474",
+                      "Size":  49106445,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NStpData02.NOS",
+                      "Sha256":  "f399d7f7310b36ddb183e49e4e45f79c8ba7c2eb4526eca071a32951249ccb15",
+                      "Size":  42086313,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NStpData03.NOS",
+                      "Sha256":  "65e0b7d56290444748ab391e3e4065133ff0dceaad8adc02ab75ad6a793c408c",
+                      "Size":  48896936,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NStpData04.NOS",
+                      "Sha256":  "2c64e6b0c70087d653903ff354f100aae08fa3eb236b7dad8447142f58ecba6e",
+                      "Size":  48267259,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NStpData05.NOS",
+                      "Sha256":  "038fba8aaa7335d74c26e6b4eb5e13250f8921a8b910e73e3331df773f7afc8b",
+                      "Size":  48575682,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NStpData06.NOS",
+                      "Sha256":  "24b2f87025247be7107c298fe406472c3d5e2947eda0fa14691a1df4442c3058",
+                      "Size":  40678609,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NStpData07.NOS",
+                      "Sha256":  "a4feefdb2e527c4de96c3d103ed9e79fc9f841b597ed64e733a19b1167df0548",
+                      "Size":  45978333,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NStpData08.NOS",
+                      "Sha256":  "c1dfeeb7ae6c7881425ce942ca2a6e160e6b33c84588fb3eca24aeb2e6b396b0",
+                      "Size":  46227615,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NStpData09.NOS",
+                      "Sha256":  "d7501d7e676eaacd3b9e9b395112cf8d0eb2f90bb88e1fed3f1364550672b6c2",
+                      "Size":  49829462,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NStpData0A.NOS",
+                      "Sha256":  "f8dca7c8efe5b6552ea64e7fcf5deb5491ce67116ff49130628171f953db78ee",
+                      "Size":  45419475,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NStpData0B.NOS",
+                      "Sha256":  "680ca1b2443f7ecb0084cd8d78596268a9c5316a4dfc606fd94906d199a0604f",
+                      "Size":  45015236,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NStpData0C.NOS",
+                      "Sha256":  "77275f93c3a83ba78185aa8c83dadb59a38e3295bffeef1791cdd66b963d258e",
+                      "Size":  43185128,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NStpData0D.NOS",
+                      "Sha256":  "26a7f0d53d548508afd93b3712fc6ab73e22d7366dc1b70213b2d781e337bf28",
+                      "Size":  41391692,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NStpData0E.NOS",
+                      "Sha256":  "f1d4e770e8bc8df5a311f2c726e8f9901c435895fe13cc11530380d415dbad19",
+                      "Size":  44239611,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NStpData0F.NOS",
+                      "Sha256":  "7f146047f64697fe01a326ac31fd91b481c219fcda618eedffb81c270a465b0f",
+                      "Size":  44384133,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NStpData10.NOS",
+                      "Sha256":  "30c17784758ed9a7915d000fc73797a75f570467cd30e0eb287457e51e4153d4",
+                      "Size":  41778415,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NStpData11.NOS",
+                      "Sha256":  "91a050bd85c54b49f45b9158d08ce31bf81697c3f41e123b267c78265aded08e",
+                      "Size":  44422816,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NStpData12.NOS",
+                      "Sha256":  "df384d122b3a392fe1082eeaa26ac21262d211a9668cb6ff432c9817f017fcc6",
+                      "Size":  40273213,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NStpData13.NOS",
+                      "Sha256":  "f35aacfa70ef10a4e7e28104862192a5338a1b9808aac134ee287a7376594e7c",
+                      "Size":  42451458,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NStpData14.NOS",
+                      "Sha256":  "7b29b519cfeeaee2c64e889266ca5e1582a32331e4876e35b3b83a8edbe32fc4",
+                      "Size":  47609562,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NStpData15.NOS",
+                      "Sha256":  "d5382af43dc36d048d3a6e312793c834e99aaeac4330532c511af6a68abee29b",
+                      "Size":  49489581,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NStpData16.NOS",
+                      "Sha256":  "189f5042272f6cb8d4818770b6a53199c741268ec506a67855114e1aedc8f233",
+                      "Size":  40493848,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NStpData17.NOS",
+                      "Sha256":  "3834d4e202c1e7a4e72006762304bf47245b20fd626023c44a0414a5daf98618",
+                      "Size":  44838428,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NStpData18.NOS",
+                      "Sha256":  "45e2b72b9a7bd233c146dd67eaced51f3ccf703696b5c3684b144c780645204e",
+                      "Size":  47545605,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NStpData19.NOS",
+                      "Sha256":  "b40023f442de61a51a3df472be94dc1d586b651b3348f2f21dc0976441275e6a",
+                      "Size":  44389463,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NStpData1A.NOS",
+                      "Sha256":  "2882bae1414997d14f225630ca4f2d5caf55b9d03c39034366d970bdcbd67d03",
+                      "Size":  47152897,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NStpData1B.NOS",
+                      "Sha256":  "97e2eda5b2aff94b28b0e6b8667b00b8dbd13de9d8956d2d32921e9458d35e68",
+                      "Size":  39848063,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NStpData1C.NOS",
+                      "Sha256":  "f958ff8bca2feb376bb8df30de7fabfa77580951a49d6ed69a3b645ebdbbda93",
+                      "Size":  42169153,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NStpData1D.NOS",
+                      "Sha256":  "9ec4d30bf434a4146b76f88062a50e58d1b3b742e664a17192a15cb18cbf8208",
+                      "Size":  51215915,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NStpData1E.NOS",
+                      "Sha256":  "158bac78199c460786c80f0f8ee705fab89e7bfb596ee8cb4ce91f9150308dbb",
+                      "Size":  47157517,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NStpData1F.NOS",
+                      "Sha256":  "c0b648d0f07ab0002831bf6517ede1d0ed400c29c1013a70dd6976559027845a",
+                      "Size":  48962438,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NStsData.NOS",
+                      "Sha256":  "7ab4ca906726c790a2d3537d936c3abf5964622b8d8a9672f52230ca209f9fb9",
+                      "Size":  15017,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/NStuData.NOS",
+                      "Sha256":  "32b90b5aa3a1d142d805fc91aff33397cf141b2215fafbe36b4b54f2e62db84c",
+                      "Size":  43467770,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/OFSQwIiB4Sl329SsaanYfehqCNGRe_CZ.olr",
+                      "Sha256":  "e8da17c513e47f420e7ea2ccc3ec115309d75551020d1ae427d74b746a519dcf",
+                      "Size":  257005,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/OFSQwIiB4Sl329SsaanYfehqCNGRe_DE.olr",
+                      "Sha256":  "0b94c49790a63790040d770fd8f3ed28f12eb98903572d0ba24d95d725a208f1",
+                      "Size":  299542,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/OFSQwIiB4Sl329SsaanYfehqCNGRe_ES.olr",
+                      "Sha256":  "e8fd86bd0be9e721881cad4da4a7dbf591825a94be6b498dd91d31710ae52a14",
+                      "Size":  296944,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/OFSQwIiB4Sl329SsaanYfehqCNGRe_FR.olr",
+                      "Sha256":  "77771211688b641f33a63a34f249eaf27c77d3c94269c5bdea24836620c920fa",
+                      "Size":  302344,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/OFSQwIiB4Sl329SsaanYfehqCNGRe_IT.olr",
+                      "Sha256":  "4446e50742b18582d8df31e47aa22eff29814414bc490532376ecb43660fcffb",
+                      "Size":  299476,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/OFSQwIiB4Sl329SsaanYfehqCNGRe_PL.olr",
+                      "Sha256":  "efeb241930ec5a146ba68c5271027258a5ad414878f8ae31284b66ee8261594f",
+                      "Size":  283968,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/OFSQwIiB4Sl329SsaanYfehqCNGRe_TR.olr",
+                      "Sha256":  "4a7453562f2a8aa874e3eeeb274b663d94beea54c8e781a754eefcc2d16b73dd",
+                      "Size":  263249,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/OFSQwIiB4Sl329SsaanYfehqCNGRe_UK.olr",
+                      "Sha256":  "927418a723f0a066101a523a0abcd28c283648d30526a09e80789f85f0a62897",
+                      "Size":  274445,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/rshvhN7sdzWNYXIr1bjrWSsDWnGwvnTZ.olr",
+                      "Sha256":  "f92dabf779a354f9267a93e0e78d559f24fc54fd1a286f9d5d62cdb14ccec2ef",
+                      "Size":  10798831,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/sORzk05vzKtjpqxXuOeON5NUwOV00jNK.olr",
+                      "Sha256":  "d35db9283c5057d16f032b74382cf24410cd6b1713f6df0aa6b558d39fd59e6c",
+                      "Size":  1344150,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/t2fgusT5L4d5WtzvIDUlbXpx7m2K5OX5.olr",
+                      "Sha256":  "2e6377ca83127ab4c8f76377b942025762a0831ea12a05c2dc9d7a7d162049eb",
+                      "Size":  6993028,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/tMjZUdzVqSYVt2A03vS0ZszoiCMU8V00.olr",
+                      "Sha256":  "def553478e76cd24444f1674dcccaacab7216242b451e69f2f5724f7ecc3015c",
+                      "Size":  82044293,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/tMjZUdzVqSYVt2A03vS0ZszoiCMU8V01.olr",
+                      "Sha256":  "f6a5575c50ddcbc569380f23f3fd764b83cfbb5821bc9b39d05676e919e3ee38",
+                      "Size":  58845087,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/tMjZUdzVqSYVt2A03vS0ZszoiCMU8V02.olr",
+                      "Sha256":  "617a7e02a176198206c420ff4cdca450d86c25ee0073c5b8c140d4a880c460ac",
+                      "Size":  139556895,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/tMjZUdzVqSYVt2A03vS0ZszoiCMU8V03.olr",
+                      "Sha256":  "ee28dc93722372a92acc824f8a0c8e9a96be8b460df683449d672022b108e0b4",
+                      "Size":  104320544,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/tMjZUdzVqSYVt2A03vS0ZszoiCMU8V04.olr",
+                      "Sha256":  "1daf6a9f80087bef8c36152c1789a98fba045680125d38ff5716508c92611488",
+                      "Size":  56964126,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/tMjZUdzVqSYVt2A03vS0ZszoiCMU8V05.olr",
+                      "Sha256":  "c2bc6d7cbe0b0402db0642ec0d46680e02fc0e3e470ee8ec1cf246063d546dfa",
+                      "Size":  49315174,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/tMjZUdzVqSYVt2A03vS0ZszoiCMU8V06.olr",
+                      "Sha256":  "130e8f1ef4c8ae8f960b2622014e18eb30684a6f51fd3f11241ddf8b20ea88e9",
+                      "Size":  94045020,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/tMjZUdzVqSYVt2A03vS0ZszoiCMU8V07.olr",
+                      "Sha256":  "5fd8d959905504b60a77f68e37695e6dbd893edfe9daf302eda549bd36f680f9",
+                      "Size":  61965728,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/tMjZUdzVqSYVt2A03vS0ZszoiCMU8V08.olr",
+                      "Sha256":  "67800b4afbae9805454efe3883f8fa98f421235291e2a32814f65e21a25a315a",
+                      "Size":  175821956,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/tMjZUdzVqSYVt2A03vS0ZszoiCMU8V09.olr",
+                      "Sha256":  "cb017422f5d2da1c859adaa0254f4a21a98afa199227beaf5282a173c6661cc2",
+                      "Size":  99261269,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/tMjZUdzVqSYVt2A03vS0ZszoiCMU8V0A.olr",
+                      "Sha256":  "826f54bcff4c3da3cbaf207c40be60ddbce341c8631161193df3fdafa1dd725e",
+                      "Size":  43054448,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/tMjZUdzVqSYVt2A03vS0ZszoiCMU8V0B.olr",
+                      "Sha256":  "10dfbd8d0f1424945530b6a3534fc9af5870ed5b39c007aa947f6e54a814ebf4",
+                      "Size":  45246141,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/tMjZUdzVqSYVt2A03vS0ZszoiCMU8V0C.olr",
+                      "Sha256":  "8968fdbba2c7c88bb2ccbbf347f3f75ca97b0cdf468b3ce24cb50b6d61ae4afa",
+                      "Size":  65357727,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/tMjZUdzVqSYVt2A03vS0ZszoiCMU8V0D.olr",
+                      "Sha256":  "7a13ba09154407d7d7424570cae3f5013de3993f2b93d1be38a94890e67a9b46",
+                      "Size":  61133719,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/tMjZUdzVqSYVt2A03vS0ZszoiCMU8V0E.olr",
+                      "Sha256":  "b2c93b3de96c612ae090b24844a414b5f302a79db7b3100d9f6913d70be4ca28",
+                      "Size":  61216500,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/tMjZUdzVqSYVt2A03vS0ZszoiCMU8V0F.olr",
+                      "Sha256":  "c89fd79b8f9295364afd655e41113fc4894537592646ee2c4b2a38d1ff376aa2",
+                      "Size":  66162909,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/tMjZUdzVqSYVt2A03vS0ZszoiCMU8V10.olr",
+                      "Sha256":  "ca1773833cf36ebfb15ac97f757fa1028b02cc711d2b6b56cc96f63022ba472f",
+                      "Size":  57612251,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/tMjZUdzVqSYVt2A03vS0ZszoiCMU8V11.olr",
+                      "Sha256":  "8f71f56916936a25f8e80ccb0a454f7301fe4e8c966ac942e2e6fcfe5890f978",
+                      "Size":  87832658,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/tMjZUdzVqSYVt2A03vS0ZszoiCMU8V12.olr",
+                      "Sha256":  "679b8cb6157109a4521150d1edf0c3e168834df9f60aa6b1ba4817262fa490f8",
+                      "Size":  130397326,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/tMjZUdzVqSYVt2A03vS0ZszoiCMU8V13.olr",
+                      "Sha256":  "ae5e3e931063145064d669e59956148619361a361780d83c292be4bb09d3f8a2",
+                      "Size":  94884171,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/tMjZUdzVqSYVt2A03vS0ZszoiCMU8V14.olr",
+                      "Sha256":  "e28dff9a4d66add30b63e3789f1ba24c852e68944d3c5a34efc7334e8f497bc9",
+                      "Size":  79648745,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/tMjZUdzVqSYVt2A03vS0ZszoiCMU8V15.olr",
+                      "Sha256":  "e6f21256029a0dd41c8be29058d7771978abea660c52854fde7b82807c9d17ff",
+                      "Size":  78271200,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/tMjZUdzVqSYVt2A03vS0ZszoiCMU8V16.olr",
+                      "Sha256":  "7a628ff0b334daab4da8ddab67869de868be0c7f532f7b8df8207d8777bdc1c8",
+                      "Size":  78871774,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/tMjZUdzVqSYVt2A03vS0ZszoiCMU8V17.olr",
+                      "Sha256":  "922b989d3300f2737e79147c178c969dfa5ece4141d2bd0e275e185de3c31838",
+                      "Size":  118539764,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/tMjZUdzVqSYVt2A03vS0ZszoiCMU8V18.olr",
+                      "Sha256":  "040a7520bc730928a977f5bce29a5108ba3eb4fe8ee89b4520cbea09c4edda69",
+                      "Size":  100431007,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/tMjZUdzVqSYVt2A03vS0ZszoiCMU8V19.olr",
+                      "Sha256":  "c82e10d4c05a7dd9667c02a6820e60da0fc4327bbf2aa108ed85db2a88584b4d",
+                      "Size":  87352692,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/tMjZUdzVqSYVt2A03vS0ZszoiCMU8V1A.olr",
+                      "Sha256":  "ba5f544cce1d9348e78638b7b2593fef57610d07575cdca4237a6b33b7249c5a",
+                      "Size":  61525051,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/tMjZUdzVqSYVt2A03vS0ZszoiCMU8V1B.olr",
+                      "Sha256":  "a3d21e694f19166ba63fabcd226fd4121561aa5bb632f6fcaa19e264f35dd027",
+                      "Size":  52430142,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/tMjZUdzVqSYVt2A03vS0ZszoiCMU8V1C.olr",
+                      "Sha256":  "44f463de189fc6413529f098e44bcf80cc0cd654358e68898955439b032334c1",
+                      "Size":  61873542,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/tMjZUdzVqSYVt2A03vS0ZszoiCMU8V1D.olr",
+                      "Sha256":  "6d7931cce065a371463d6492bc167d7eb7e3f0294c704f196ebc8e10d9fda1ab",
+                      "Size":  67807370,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/tMjZUdzVqSYVt2A03vS0ZszoiCMU8V1E.olr",
+                      "Sha256":  "f0851187ea67909c5dcd1a55884ff941dbf3130cfbe08b13b9bbc44a0a38ad73",
+                      "Size":  79760813,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/tMjZUdzVqSYVt2A03vS0ZszoiCMU8V1F.olr",
+                      "Sha256":  "dee749c68f19a562d8ff6670908a5c135656d7805a92f79d47374aa2e5d718c0",
+                      "Size":  64953828,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/VAjttKy1r2eGb4lq2XegSEPpwRv8Zolu.olr",
+                      "Sha256":  "e1bfce9a44b6fc442bd59aba1ff0b69dfad91a4410dfe5c66db50a9c646cb06e",
+                      "Size":  76096110,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/W80COBcnfpfCx6MBpX7oEbEzoIdqM100.olr",
+                      "Sha256":  "21285bc8780deded2ce677fb60998508fcfe68054ed358ded15f188555de5767",
+                      "Size":  58694548,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/W80COBcnfpfCx6MBpX7oEbEzoIdqM101.olr",
+                      "Sha256":  "51d4c984882ccc09be80712506268d01d466e251b82607ce0578e751f0dd0a8f",
+                      "Size":  58312293,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/W80COBcnfpfCx6MBpX7oEbEzoIdqM102.olr",
+                      "Sha256":  "eaf542e267ed266dddd39c27480160c7aea5b224b168448e7e760948d54b8ffd",
+                      "Size":  45189280,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/W80COBcnfpfCx6MBpX7oEbEzoIdqM103.olr",
+                      "Sha256":  "58c8379602eb21c27836a6ed1ec23c3fee590619ad598705f618c40b36191f6e",
+                      "Size":  45901333,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/W80COBcnfpfCx6MBpX7oEbEzoIdqM104.olr",
+                      "Sha256":  "2f60e1c3162a7cd9086bd4723c1b4129b5fc94be62ca27300cb7143c00f62d55",
+                      "Size":  44773343,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/W80COBcnfpfCx6MBpX7oEbEzoIdqM105.olr",
+                      "Sha256":  "5652c4d3cbd7bfecf8d2bf3f39f252f8cf12249e3e0993b6b6613fd98c9d34cc",
+                      "Size":  44762368,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/W80COBcnfpfCx6MBpX7oEbEzoIdqM106.olr",
+                      "Sha256":  "4b39e005832176785bacfe57028758e155e0e4f1d319bcd3b3a0c43a4891e6e8",
+                      "Size":  45243328,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/W80COBcnfpfCx6MBpX7oEbEzoIdqM107.olr",
+                      "Sha256":  "2178cc334a09b63ecb51f54e255b1c23998402122a06274c80dc0ff1330f7a8c",
+                      "Size":  44457234,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/Fonts/gulim.ttc",
+                      "Sha256":  "ed7502755424c560f4538647eff0833b738fe7f3f4ba4de8fca9ff8c4d6a776c",
+                      "Size":  13518660,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/Fonts/tahoma.ttf",
+                      "Sha256":  "08f45bf539954d3252df97a2ae563362ed2ad5ebe05f2d1f2bc54b931e4d0550",
+                      "Size":  383804,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/Fonts/YD2002.ttf",
+                      "Sha256":  "a2969b5b45361832f8231177b629cff5f7a48bd9f00fe145633fb08c3ef0fc3a",
+                      "Size":  1540568,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/CZ_t01_basicmove.html",
+                      "Sha256":  "7a46df6f0c4a6b4020e99c6b921ce44e21f27f28f767c7ce60f15019e99f11e5",
+                      "Size":  3580,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/CZ_t02_capture.html",
+                      "Sha256":  "c0cf4f920f55db89affd93d2dd0940a5ef14722b87f89841f9b611ee35d0f135",
+                      "Size":  1759,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/CZ_t03_petctrl.html",
+                      "Sha256":  "c26e7baa69a7935b50699762690bd78337cebe4639c367f1ee4ff79cf009b66a",
+                      "Size":  2221,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/CZ_t04_education.html",
+                      "Sha256":  "121220562c595a2e3fb36d9eca6663b6f0de52b14e7055e5db2336c9ab3a420a",
+                      "Size":  1204,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/CZ_t05_basicskill.html",
+                      "Sha256":  "03cdfeb2c3c56bc66671cc00267fab056a0d9cd4ad3a0592d7b64697312e8d1e",
+                      "Size":  1596,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/CZ_t06_majoritem.html",
+                      "Sha256":  "463cd443b30d27f73bd35305d6baf2f2723312ebd7c9bd79b35651d084f9201a",
+                      "Size":  1490,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/CZ_t07_equips.html",
+                      "Sha256":  "825da52e707cf19471084b411683971790bdecce57039b7a72b201be5d1f14b7",
+                      "Size":  1584,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/CZ_t08_foods.html",
+                      "Sha256":  "f9ee4973382a309e72568dabe21d7b0f07c616a460c0ba2426d080f270addd01",
+                      "Size":  1870,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/CZ_t09_lare.html",
+                      "Sha256":  "91bd307a9f3e09ec6f9187c4346f6adc95735f18ee5381c3640f315ddc6b2ab0",
+                      "Size":  1674,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/CZ_t10_refine.html",
+                      "Sha256":  "2e1a5760902342089817f0e991d734af7fe48d5927edfc52a8a3356e85455733",
+                      "Size":  1324,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/CZ_t11_strengthening.html",
+                      "Sha256":  "45624c8bed02836026e8ff2c3503a39af8254f1b3043453b044129f05f438971",
+                      "Size":  2682,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/CZ_t12_miniland.html",
+                      "Sha256":  "55ccdc884099dfc8f71c3bcd17d478aa70873251735eb202039b2d7bf309bc37",
+                      "Size":  1585,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/CZ_t13_product.html",
+                      "Sha256":  "6ee3da815ab1d3bd707b3b40e1344ec276532705c31152834b8a5a1a8dfd7cca",
+                      "Size":  1421,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/CZ_t14_option.html",
+                      "Sha256":  "913cdc0e9a9cc9199b83e47529bbf7c45daee9342330699e7e4982e84002c577",
+                      "Size":  2784,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/CZ_t15_plusskill.html",
+                      "Sha256":  "35f208912d2403f3dfdcaef627151b01129d25c369d04474016e8e1fc7f93030",
+                      "Size":  1520,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/CZ_t16_changejob.html",
+                      "Sha256":  "507e990a8e5dd87ef887fdd5f085e912826d5f1fcd6788020fe587a48357fbc7",
+                      "Size":  3423,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/CZ_t17_attribute.html",
+                      "Sha256":  "95613804e763ad880b72fb8c8ac05d76b5c88393bafc46b812842594006654e0",
+                      "Size":  1966,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/CZ_t18_regist.html",
+                      "Sha256":  "655712443d15c2ed9a64c37b8b6905fa9e0fc658f66d23ba6103b1987dc6f86d",
+                      "Size":  1555,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/CZ_t19_acts.html",
+                      "Sha256":  "8692277687cb6fb62231124d572e42bcee060c0750280a1c0f05210da335d56f",
+                      "Size":  1786,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/CZ_t20_miniland.html",
+                      "Sha256":  "781cb7c3a99f8bea722c354ebb9dd3dcff6fa0068610fa69ba64d59b7d9252d1",
+                      "Size":  2367,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/CZ_t21_stoneinterface.html",
+                      "Sha256":  "38d2630c6861fadff6d4f1c3ac06799e7f2478bb9c9088a0fa4ee9a2418b0e6b",
+                      "Size":  1106,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/CZ_t22_fairy.html",
+                      "Sha256":  "435f544c7a55cedc25bd5fed7d0798807b38bf8f4603199d287fd3e61224106f",
+                      "Size":  1702,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/CZ_t23_fairystate.html",
+                      "Sha256":  "e689662d1afba9268845953393aeab24ddd6f129e06b228cf7029697902369c4",
+                      "Size":  2501,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/CZ_t24_personstone.html",
+                      "Sha256":  "701ff7cc281500e287eea66a8db28c7e0229f099f59f082970715b5032b44f41",
+                      "Size":  2015,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/DE_t01_basicmove.html",
+                      "Sha256":  "1fd7e81d94e087d07bfa151a9d8a864bbcd5f1d920f1b2f3afdabb7579dd69a7",
+                      "Size":  3720,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/DE_t02_capture.html",
+                      "Sha256":  "ea08c8cdfa8fc15825d4a60567591808687b647e9337ac6f4619e4b10d975cca",
+                      "Size":  1871,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/DE_t03_petctrl.html",
+                      "Sha256":  "2c77b36cf895a3f2679f141cad9fa09606964a72a8ba474acd07b4470bcc5b53",
+                      "Size":  2221,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/DE_t04_education.html",
+                      "Sha256":  "f86dabd399ff455505e8f2e542839c50cc648b24a9ad94db73956512988dac14",
+                      "Size":  1234,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/DE_t05_basicskill.html",
+                      "Sha256":  "c79d1f4b5b9a5b6208a1f587b58d712e654c4af087336b7870f112612b8d5ddf",
+                      "Size":  1603,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/DE_t06_majoritem.html",
+                      "Sha256":  "b8705a906f39a62c47c3f5ff02475be1b0c6ed3cc0de2c22df01e9867569f98f",
+                      "Size":  1526,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/DE_t07_equips.html",
+                      "Sha256":  "533301bfdbee188c0d543588f5bc1b8244401f6a9d83e847466f9a32f74bb6b7",
+                      "Size":  1378,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/DE_t08_foods.html",
+                      "Sha256":  "42013b0f54d2034c054d6a2775060a7c88b8e4e02a9818729a3b8af3ab80968a",
+                      "Size":  1978,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/DE_t09_lare.html",
+                      "Sha256":  "be7769be731fc01a3477723ce0ed8863b32378c67dec37d4150411d62b517384",
+                      "Size":  1668,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/DE_t10_refine.html",
+                      "Sha256":  "ae8b5efa86f71f154ca32bf374d1abecfb2ce63f1777845192a3347c69854dcf",
+                      "Size":  1327,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/DE_t11_strengthening.html",
+                      "Sha256":  "d4ce3122e76eb0b2317d05712f7111dd931ab0675355e481440bbf40b0e4f693",
+                      "Size":  2729,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/DE_t12_miniland.html",
+                      "Sha256":  "18b1ea2926fa2e1a8523908cb2e097a09ae9493f3780139f9dff8a7731214742",
+                      "Size":  1612,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/DE_t13_product.html",
+                      "Sha256":  "372577500da0f84d46a06fbee150e83170004370bf06387db7b3da3eb5243901",
+                      "Size":  1467,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/DE_t14_option.html",
+                      "Sha256":  "af72a877d914a842c5eebb112e700f076f44e4f46770da3c5a797c15acb9c77f",
+                      "Size":  2857,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/DE_t15_plusskill.html",
+                      "Sha256":  "89dcbdbf397a10a3e1c7295aa039710e4df8a250f466a6bfd164e1d12abcc0c9",
+                      "Size":  1522,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/DE_t16_changejob.html",
+                      "Sha256":  "52fc905ba42bb5ceed1369cb25a3b479706646f36326896f6a0100c43190f639",
+                      "Size":  3448,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/DE_t17_attribute.html",
+                      "Sha256":  "74b60f9756299f37413c95ddfadbbb1e9fb0a7ce08055aa8d0cdbcc3cb751177",
+                      "Size":  2044,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/DE_t18_regist.html",
+                      "Sha256":  "411aa2ad6514e6a727ede8384544029da185a0fb81cfa60f5708babcf55e3dd3",
+                      "Size":  1669,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/DE_t19_acts.html",
+                      "Sha256":  "1e90f4f232e2103405182c944444f253ba2615b50a1c528c82a09347828b6639",
+                      "Size":  1852,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/DE_t20_miniland.html",
+                      "Sha256":  "b35202fdd9cb8486f0827d72fd75433962650d648c273b295a1335385ae45bc7",
+                      "Size":  2459,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/DE_t21_stoneinterface.html",
+                      "Sha256":  "bcfaef3cfe1b51fa3802b1170bed2a397bcc9814f824980e80f0e0e709fdb74f",
+                      "Size":  1183,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/DE_t22_fairy.html",
+                      "Sha256":  "a946c653e68170e97d8d07d7e7b21f4983baed88667894df413b78c49125d272",
+                      "Size":  1795,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/DE_t23_fairystate.html",
+                      "Sha256":  "2b80696669dbc03d313cb1bfa63d176853796f606792b8ea54b8272d487574f6",
+                      "Size":  2595,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/DE_t24_personstone.html",
+                      "Sha256":  "b068cfe441117f51a8e734c1c2e54883fc7c0586a0691030714e3a7b30a034f2",
+                      "Size":  1993,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/ES_t01_basicmove.html",
+                      "Sha256":  "3b3c134a442ef56682120164772e967e133d93c97435d4db45810d8cc30245a3",
+                      "Size":  3751,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/ES_t02_capture.html",
+                      "Sha256":  "407074f2267829131460f05d37dc6409e3262bbc098e30e6984cdbc92e2d1901",
+                      "Size":  1792,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/ES_t03_petctrl.html",
+                      "Sha256":  "250dd95e69a6d66c7aee109cc0002e292604d1e0ea3b5242d2e3c083b699ab72",
+                      "Size":  2302,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/ES_t04_education.html",
+                      "Sha256":  "8f861787cee30e1bef80cca49da987f3c5a03951ef8cdf0490080bd0a067f380",
+                      "Size":  1288,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/ES_t05_basicskill.html",
+                      "Sha256":  "1b20599f8c6d9536009d91492703cb58b28ce39381d84be3ab8d8dbfd52bff8d",
+                      "Size":  1644,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/ES_t06_majoritem.html",
+                      "Sha256":  "e7d9c90ed06f0d438fd6fa1d1ecbe08c9f7d30ddff9ddbcc36e94bfcf5b128a4",
+                      "Size":  1548,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/ES_t07_equips.html",
+                      "Sha256":  "d00a4ac8f7d84fc32a84c2c69e0966af200beba4db98cff3cc6de3e146ec983c",
+                      "Size":  1670,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/ES_t08_foods.html",
+                      "Sha256":  "e4d5c07eb65476812cf2c95de25ba1535b7d9141bab8ee0f50ca35e0099bc14f",
+                      "Size":  1979,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/ES_t09_lare.html",
+                      "Sha256":  "d1dbde4cfdd34ea96e80537084f75fe2ed5cacced54e9bcf900a96f00fb26a7d",
+                      "Size":  1738,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/ES_t10_refine.html",
+                      "Sha256":  "d04c4bd1bac36ecac369ab75e479d1e9b535f751f2135282302e60b50c319356",
+                      "Size":  1400,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/ES_t11_strengthening.html",
+                      "Sha256":  "3b397df37fd9bb261afee0680f701f1aef5ca409b424200669d4c02e143885a6",
+                      "Size":  2729,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/ES_t12_miniland.html",
+                      "Sha256":  "b5954ad0adb91be4e0d2a66cb0574c9bbe5c9cbf7bc6017f8b505e2e78765e05",
+                      "Size":  1608,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/ES_t13_product.html",
+                      "Sha256":  "24bc17fc5f35bde852586cf2bdb2322621212bd9637f78ad4b001bfaa6430111",
+                      "Size":  1476,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/ES_t14_option.html",
+                      "Sha256":  "9962b05b668d94210edb67c32adeaeea1e96ba363262ba5ae302a92ddd632a0b",
+                      "Size":  2988,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/ES_t15_plusskill.html",
+                      "Sha256":  "7c67ffd66de424d4609d4d6518c1d49c03d2e435ae7860f76f5d676bb37d729a",
+                      "Size":  1548,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/ES_t16_changejob.html",
+                      "Sha256":  "c750cd9cf7f051a28fd2b9818bbc2d9e8ff6704cd1af82436b28fedee4955d0c",
+                      "Size":  3483,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/ES_t17_attribute.html",
+                      "Sha256":  "bfc5121353c23a51d7686adf1b5e0cfd31f3ebd6a7ffcbdd0e58db431d6c7114",
+                      "Size":  2042,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/ES_t18_regist.html",
+                      "Sha256":  "4cdca20f436519eb65143829327eb662aadc3bd4a43d6a5a21f436ff6a5a6a06",
+                      "Size":  1673,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/ES_t19_acts.html",
+                      "Sha256":  "d0197be42221e24dfb9db0a993aecd4ced20d7333f48c3d6d7bc6e561c7f5213",
+                      "Size":  1797,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/ES_t20_miniland.html",
+                      "Sha256":  "04932835b42330e955bc6cb50eebe6603e91039bba22d193296922396e2cacc8",
+                      "Size":  2404,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/ES_t21_stoneinterface.html",
+                      "Sha256":  "8346af7cd078ae61ada433bc79a71abc42e5dde43b3b0533cf1f4205e22225ea",
+                      "Size":  1261,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/ES_t22_fairy.html",
+                      "Sha256":  "f59d8fc35f09781fe7e337ce22dc7708eb999e51ea3ca984cbb71faa08b26768",
+                      "Size":  1814,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/ES_t23_fairystate.html",
+                      "Sha256":  "c030f9028e046e291dcb7b31effb41344412a329b766faf491f567bea79d9eb9",
+                      "Size":  2658,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/ES_t24_personstone.html",
+                      "Sha256":  "2136a000d45082081e9ee62a1286c77bfe226120abe7f6e4475edef762f87aa7",
+                      "Size":  2147,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/FR_t01_basicmove.html",
+                      "Sha256":  "7cf543cfc4b9b0b6f43f9ee2105b266ea91e9e6643d1993dd4445495b9922400",
+                      "Size":  3667,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/FR_t02_capture.html",
+                      "Sha256":  "d341bf46e4f3e56d85cb4753dfdfc4a8295e098ca5986fd3d0e076c6dbc666f9",
+                      "Size":  1905,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/FR_t03_petctrl.html",
+                      "Sha256":  "f4d54c43c2f3e2f7319942d5e916077bb98d49ff24015d04d1381548709b3027",
+                      "Size":  2304,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/FR_t04_education.html",
+                      "Sha256":  "53f6cc0648d02958ae7a60c4885bdb9fb125d88b72a8c7e0ef5e52414ceeb6aa",
+                      "Size":  1281,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/FR_t05_basicskill.html",
+                      "Sha256":  "0be8619c56ac15c11012091885a42070abbe734db92e889795a2e63aac67c9b5",
+                      "Size":  1700,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/FR_t06_majoritem.html",
+                      "Sha256":  "09ce4907717759b3e1575839b383c78f5e8958ac8efbe69ca30f46a31380e063",
+                      "Size":  1545,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/FR_t07_equips.html",
+                      "Sha256":  "e1f5124ac9342aefca2fbd27b36665b83572b7086f5925c6057e551e57b4f5c1",
+                      "Size":  1678,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/FR_t08_foods.html",
+                      "Sha256":  "f67666d0145f0545031b550c094b73cfe532daf5e809ddaf5a0e610c7eaa3918",
+                      "Size":  2015,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/FR_t09_lare.html",
+                      "Sha256":  "80cd022a3a1451aaa0986e9c1591a4227cd99f39bc2375410c42ad4d40ff0e23",
+                      "Size":  1752,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/FR_t10_refine.html",
+                      "Sha256":  "efb0c1b2749c3ffb30f18240654e931a2f7013c6062b2628c2ca23a322e4682d",
+                      "Size":  1454,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/FR_t11_strengthening.html",
+                      "Sha256":  "9373da2cd9e15e92ae0cf8d0733006d4d8137382a6c2a93fc05b803c71b2a37b",
+                      "Size":  2768,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/FR_t12_miniland.html",
+                      "Sha256":  "cc2d94aa6904bb5af1a834076ddb62fac6da213ecc52c6f7a268c129a54c71a6",
+                      "Size":  1619,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/FR_t13_product.html",
+                      "Sha256":  "b93ec611d27d92f8ee6974aaca7ab86d00ec063c7d6992af33faca5b1f984600",
+                      "Size":  1515,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/FR_t14_option.html",
+                      "Sha256":  "dfdabf815923967fbac926ece94e06cd716469816f800ac7dae593fa77a60b05",
+                      "Size":  2847,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/FR_t15_plusskill.html",
+                      "Sha256":  "23b95b6486ce0612a180d2c6b9d83ae88c7b68beb84f8628c12a437b4a11b951",
+                      "Size":  1623,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/FR_t16_changejob.html",
+                      "Sha256":  "6573981d72580b3117110ee5b339d475daf446453a1c711c6b2adcd3da37c7f4",
+                      "Size":  3475,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/FR_t17_attribute.html",
+                      "Sha256":  "2535fc89e8674b04431485e3ccc83eddeb3b69c9f96e3edfb465f29cf8dd453a",
+                      "Size":  2025,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/FR_t18_regist.html",
+                      "Sha256":  "70e46225ac1dd505a72a5b6aa6da90dcd824b33565b07e0c85682ccc4a93c9c7",
+                      "Size":  1663,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/FR_t19_acts.html",
+                      "Sha256":  "13012acdd6a0a8c22937d1d6d65148ee0362398b449e11c65d406c688ea4bef8",
+                      "Size":  1861,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/FR_t20_miniland.html",
+                      "Sha256":  "7cbe16be23e1081755a3996df6d983b4ccfd632c523a97b91bb36af28ce0d24d",
+                      "Size":  2573,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/FR_t21_stoneinterface.html",
+                      "Sha256":  "c306e35e729bff4dc41891e5d77b0c27023d1e50eccb27d38224bce6056d4d83",
+                      "Size":  1226,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/FR_t22_fairy.html",
+                      "Sha256":  "370f192dcc11aa2dd42e116922f370302e7f6b64d35b6015891fc815f2735fd9",
+                      "Size":  1850,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/FR_t23_fairystate.html",
+                      "Sha256":  "3427b480314b123271b9c901dae07ba2325f42e103d3a20e010603dabca0e574",
+                      "Size":  2703,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/FR_t24_personstone.html",
+                      "Sha256":  "d8031041ab0a231725cc61cc87f04ff34d22f160a9c410a676273e89a095b790",
+                      "Size":  2280,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/IT_t01_basicmove.html",
+                      "Sha256":  "1967eb2c5e61c2598f9e9e90daedaed471833302a2e49b0bed4909644cb0f4b4",
+                      "Size":  3666,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/IT_t02_capture.html",
+                      "Sha256":  "67a29f2e1d83e4f5595c5516cabd60343efaa1f8ba3a39e88e59b1b54d7f6436",
+                      "Size":  1830,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/IT_t03_petctrl.html",
+                      "Sha256":  "809639c94f6eaf8cc8ae1619385f24175b4094d2cdad45b6e00752985f4c004d",
+                      "Size":  2263,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/IT_t04_education.html",
+                      "Sha256":  "b0beb46688dbbe873517b3d98bb6e56ca16ae16b9687052eb5ea9718532d7fd9",
+                      "Size":  1268,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/IT_t05_basicskill.html",
+                      "Sha256":  "dcb029a6f80e2fb9e8dcd04a04f2ff760355a562c1ed781cc7da0be479105d88",
+                      "Size":  1648,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/IT_t06_majoritem.html",
+                      "Sha256":  "9eb763211a1424c223cbc90cfa83686927d1e2c08e769b8b1a97b31f02e6a8fb",
+                      "Size":  1561,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/IT_t07_equips.html",
+                      "Sha256":  "a93a45dfaa34307e3fe6cfc391de8174efff42e27346ad90d488e033583fab08",
+                      "Size":  1676,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/IT_t08_foods.html",
+                      "Sha256":  "1a786782f3a56113c0e333404350f605471bc7b7b111128e9be898dbfdb98e03",
+                      "Size":  1948,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/IT_t09_lare.html",
+                      "Sha256":  "4d4a0eb6974b938f9ddacc1ce9d8affdfd761ec9823dbe94071e41677e0e9409",
+                      "Size":  1684,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/IT_t10_refine.html",
+                      "Sha256":  "f6fe9fe9fb4f032a8e6d73bc403255413f392fb2927b323da9f322f956486691",
+                      "Size":  1363,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/IT_t11_strengthening.html",
+                      "Sha256":  "35738a2ce6d9e15537b2d47001c016166a64077afd8206eba69280ab69b11dee",
+                      "Size":  2675,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/IT_t12_miniland.html",
+                      "Sha256":  "6912b0987f1f55dbd68f1a40af656e4ea009c4ff28e128bebb48c1828f985511",
+                      "Size":  1606,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/IT_t13_product.html",
+                      "Sha256":  "662d5b953a78b477cec3c0f12aaa4a2a5492598768d495e628e6bad61ca87aa0",
+                      "Size":  1496,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/IT_t14_option.html",
+                      "Sha256":  "89665514006d3360be3160b9cb2f6b25f18ba1991bab8bf3d1f90764d5b41b49",
+                      "Size":  2726,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/IT_t15_plusskill.html",
+                      "Sha256":  "cf4e38a9dc5b6a93e85de6a7270de6b4f4701e3eff4db233b2d17c1392fad280",
+                      "Size":  1573,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/IT_t16_changejob.html",
+                      "Sha256":  "78194490595bc4e069810e2c22555d3d403fad60a54b4dfc3b29e62b2db57254",
+                      "Size":  3500,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/IT_t17_attribute.html",
+                      "Sha256":  "de884180cd3e7044d685c49d7019ffe6f3013ae6f6dd3be547d93c3936ce72bd",
+                      "Size":  2045,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/IT_t18_regist.html",
+                      "Sha256":  "e01d7af2d90d17e14cb12850d7f490210a44556a36c356e67cec5f541c1c7173",
+                      "Size":  1654,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/IT_t19_acts.html",
+                      "Sha256":  "37efcd953e6f8eae290844029010eac0c10dd07b92f926610262c3e6bd40e9c1",
+                      "Size":  1923,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/IT_t20_miniland.html",
+                      "Sha256":  "bd00792dd0bfc2ea3a4b476e8d9d360580d84e6ceb3e31f37001b711afe45f1a",
+                      "Size":  2457,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/IT_t21_stoneinterface.html",
+                      "Sha256":  "8d5c310d42c3b3d476c77a71e7d43263f6b9f646c47a402422075918122299fb",
+                      "Size":  1193,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/IT_t22_fairy.html",
+                      "Sha256":  "82412e0f5a19d14d899b6f44527b92bce94c7a8a42ec5b79c5ce0498716fa56b",
+                      "Size":  1861,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/IT_t23_fairystate.html",
+                      "Sha256":  "6d1cdc3ed53d507899803ca1c40b005c7b356d12f7a8c254a4bf9494037be9e1",
+                      "Size":  2673,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/IT_t24_personstone.html",
+                      "Sha256":  "b06d4cb6fabe78665500a8e6a7ca26882519f2da060a375ee31ae3bfe466ed47",
+                      "Size":  2207,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/PL_t01_basicmove.html",
+                      "Sha256":  "23303439e973ddd121c294774437bce2b2fa6927003afa8a848b00b9557c0705",
+                      "Size":  3565,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/PL_t02_capture.html",
+                      "Sha256":  "ecda5a5bf3b2db46cf5da22671228d244cc757255b92cadd82a2bea766948bc1",
+                      "Size":  1832,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/PL_t03_petctrl.html",
+                      "Sha256":  "5624031d33e13b0b11777924a1f9c5a8a050f8d42fd0b15297fcdfdd93292f31",
+                      "Size":  2257,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/PL_t04_education.html",
+                      "Sha256":  "5f72a87f315c2966d0ecc9f582e3a4f8aad77052e334c1c2f8f66f14c48e5c5a",
+                      "Size":  1232,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/PL_t05_basicskill.html",
+                      "Sha256":  "a8f5a432d0a93d01d04e809eefeb127965253a423ac0d255ab800cd488262963",
+                      "Size":  1614,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/PL_t06_majoritem.html",
+                      "Sha256":  "2fba4f84a639a5b0c8217613197743514abf3ca86cadb4cedec288ddcee6feef",
+                      "Size":  1533,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/PL_t07_equips.html",
+                      "Sha256":  "28ce836af6401a4d9a6bcebaf997cd0e02e10a05914b78fc70c8fd6a3760b697",
+                      "Size":  1414,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/PL_t08_foods.html",
+                      "Sha256":  "2d53d7f4b4c81b26c5842c3d01512cdcb1f22b7c556f6b7d941979f605f31845",
+                      "Size":  1958,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/PL_t09_lare.html",
+                      "Sha256":  "245188f87946175a77ab5468215b5d8b6f1882c0cf972aa4efe91c4cb32cf02e",
+                      "Size":  1753,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/PL_t10_refine.html",
+                      "Sha256":  "74f8ea8b0af431d846f7c137ac7cd5e641947085a3088b33c6bd7975ba06e513",
+                      "Size":  1296,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/PL_t11_strengthening.html",
+                      "Sha256":  "cf72c35b0099d2392851821ea59c16539c5595f83e7ab7a2a9e43f8ef7a81a4b",
+                      "Size":  2646,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/PL_t12_miniland.html",
+                      "Sha256":  "2cae0a9d701e4d087d6fddb1130ee24dc58d39ae32ef65d00ad1c34bec5cb282",
+                      "Size":  1635,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/PL_t13_product.html",
+                      "Sha256":  "c3a84d012425448acc5e5369a7089afc38f63979992fa142eb580637c95c0c12",
+                      "Size":  1475,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/PL_t14_option.html",
+                      "Sha256":  "e4730fe47aaf06b8885d2686fd0bba8b88836b199c735a67b68123ee9ff25ca3",
+                      "Size":  2793,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/PL_t15_plusskill.html",
+                      "Sha256":  "8960d45759f3efbc579bef93e584e69f8b4c07226dda7822f3e73b5738add48a",
+                      "Size":  1586,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/PL_t16_changejob.html",
+                      "Sha256":  "f57ded0d27898c0aff74711bcf4593074714ef54fc3777a62c4f8b1cfaa1ef15",
+                      "Size":  3415,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/PL_t17_attribute.html",
+                      "Sha256":  "1f6f65fb657a7eea6e3994fa90c3c3a3b7bb92bbe3d862ced22634aaec739380",
+                      "Size":  1962,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/PL_t18_regist.html",
+                      "Sha256":  "5523d2740a8018b7e0a3848dd17f67f0a3444abac8ec376c4595e4a0beb22782",
+                      "Size":  1639,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/PL_t19_acts.html",
+                      "Sha256":  "a0492c9b3fd535961ed92eea3560a2d527cbd47814b6edbc08813f95edb686df",
+                      "Size":  1870,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/PL_t20_miniland.html",
+                      "Sha256":  "45a8929422b47c25ae48dc3122910a1451490890e4bdec72b569c86c99d8d1aa",
+                      "Size":  2395,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/PL_t21_stoneinterface.html",
+                      "Sha256":  "3c978939878c98c130bde3ac495b9ebea0b8db269f785d26e01172654c9db012",
+                      "Size":  1207,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/PL_t22_fairy.html",
+                      "Sha256":  "a22ca8d9dd21c9f2a4d6a2ed6e2dda4bc4badebcece660d6949c2ac85fab764e",
+                      "Size":  1801,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/PL_t23_fairystate.html",
+                      "Sha256":  "8207f23ee725dd0592059ef8ef79a8c7eff6578f96ea79bc38929b2cf5e0842a",
+                      "Size":  2601,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/PL_t24_personstone.html",
+                      "Sha256":  "279a147bddd46f028e728274db6ab3c5a9be6c4b573da73d6591776a43bc0019",
+                      "Size":  2121,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/TR_t01_basicmove.html",
+                      "Sha256":  "61a9187ec223fe5ef4d72bbd38fe17f814b378a1a61cba3be2abe0a1e09d482a",
+                      "Size":  3747,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/TR_t02_capture.html",
+                      "Sha256":  "2d81ffb2143032c460da558776b343fef756c3a12395917350a409db936e7600",
+                      "Size":  2176,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/TR_t03_petctrl.html",
+                      "Sha256":  "d2804a8436f20282bee96bc3489b508b1e04527b2ce807674ebcc94806ab41f4",
+                      "Size":  2312,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/TR_t04_education.html",
+                      "Sha256":  "7bcbe879c5e3ea2cbc1a10761bb3535290e5e8fd1d773c51243d7e841d9661e3",
+                      "Size":  1356,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/TR_t05_basicskill.html",
+                      "Sha256":  "3a2c43f4604e3e0c1a980cb4b81d088a0f8c9b16eb936df8267f53fac2ce1272",
+                      "Size":  1667,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/TR_t06_majoritem.html",
+                      "Sha256":  "a9efdd1bc5d21f21a13015fdedc8d3f5743ed2ab3b25e1947ac1d0a023493066",
+                      "Size":  1748,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/TR_t07_equips.html",
+                      "Sha256":  "a80cc569c0221101ed00ca66fb085c4608f2ae714bde852ddb615693cf89a8db",
+                      "Size":  1411,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/TR_t08_foods.html",
+                      "Sha256":  "aa267b717632ff3a2ea09cfc5a9619597bcec2d7680042488fe061c7d2dd1445",
+                      "Size":  2148,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/TR_t09_lare.html",
+                      "Sha256":  "117d01120450e836427bbdd353743301cb2055dbdff1305a30578bcd785c38be",
+                      "Size":  1742,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/TR_t10_refine.html",
+                      "Sha256":  "88c142706ded1a8c422e9e2573718c576b6be3020c311c945650e28ccc2283eb",
+                      "Size":  1539,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/TR_t11_strengthening.html",
+                      "Sha256":  "67a39dd4c8dbbb7ce098857338e25936baae966297741fe69bacb1818a8758df",
+                      "Size":  2766,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/TR_t12_miniland.html",
+                      "Sha256":  "7bbbf0e15c63eb7c8b695943759c69ea350a2aa8a81cd4f571bcfcbae3784e19",
+                      "Size":  1797,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/TR_t13_product.html",
+                      "Sha256":  "61787818c272bc01b2f1513ab1754c2ae6ce41b400197ec4dfb8fb868a659be2",
+                      "Size":  1546,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/TR_t14_option.html",
+                      "Sha256":  "c5f8d7ac5ab017c7e31544fbaef562c9e7dcc575d6db638ded1d4b865bf9bef6",
+                      "Size":  2934,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/TR_t15_plusskill.html",
+                      "Sha256":  "bf55248cbcd1875e97bed57a4421edb0b629fa282b6c3072074671caa20abbb5",
+                      "Size":  1520,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/TR_t16_changejob.html",
+                      "Sha256":  "0902d071e0c8f3107283abbeb3e1c694dc3bc4f7d0d5ca05fd105d068785876a",
+                      "Size":  3638,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/TR_t17_attribute.html",
+                      "Sha256":  "999e39fa4671720552a5919ac453263c3a523863b05de82122cd27b2867bf111",
+                      "Size":  2208,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/TR_t18_regist.html",
+                      "Sha256":  "227d0784545bd81351e718f5c532f7dc18e19544be486adc81e34505417b5d02",
+                      "Size":  1923,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/TR_t19_acts.html",
+                      "Sha256":  "51ac5f0c086b30994a8e493534692ad588406763319c09d82766f4e56ff84da7",
+                      "Size":  1964,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/TR_t20_miniland.html",
+                      "Sha256":  "eecd0b8658a1b57b0a14c613b612b7e5cb705c25e12d3344a05e7c6de8eed987",
+                      "Size":  2505,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/TR_t21_stoneinterface.html",
+                      "Sha256":  "3c72c775ea087884d3d93048209a5eac1c518b8bbc2c5491f60d957431628a89",
+                      "Size":  1375,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/TR_t22_fairy.html",
+                      "Sha256":  "89e5db846ca4a7e8a7e7e8a58adb340ca3cfa33fe8e3e1070fe940bf2d675805",
+                      "Size":  2013,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/TR_t23_fairystate.html",
+                      "Sha256":  "22f16c85bd32f1e60d5c19ceb44e8c2dbf1d579ed32021f23250a95a5dd3d86d",
+                      "Size":  2770,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/TR_t24_personstone.html",
+                      "Sha256":  "4ee1c1cd9b5a1d9a4a3d429d996e3c314bf7727c45b47232171e08eb22856ca5",
+                      "Size":  2138,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/UK_t01_basicmove.html",
+                      "Sha256":  "04e5733b94e60bf3303eb1fa0af5669f2a9ec69524e0b9373e81f55e1d6be639",
+                      "Size":  3576,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/UK_t02_capture.html",
+                      "Sha256":  "3db84024396041a4f0c25c65a30fbd3c1c02c93a4156cce70bfaea5d2a6e36e8",
+                      "Size":  1811,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/UK_t03_petctrl.html",
+                      "Sha256":  "0390ea77b9bcb0778c601101030d5d8bb4edc133750b3def6ce43721558caa8d",
+                      "Size":  2192,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/UK_t04_education.html",
+                      "Sha256":  "5e19abea1b763bd176ac2e75e21e20acb8af71e7ae89b3bfdf9d33d7dce2813e",
+                      "Size":  1217,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/UK_t05_basicskill.html",
+                      "Sha256":  "b4782907cc5bca348ac363d38ee4c4f765bc3ad8397eed79c8d932bcbd4383ea",
+                      "Size":  1556,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/UK_t06_majoritem.html",
+                      "Sha256":  "7b0bf6268650f0784da65209dc063eb544b1de08da4ce24b4ae68a9ee5dd1c5b",
+                      "Size":  1462,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/UK_t07_equips.html",
+                      "Sha256":  "bdb280c888dde687709a46d7cf4d433b343a7ca612c96e29cebf12e5aac78d31",
+                      "Size":  1556,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/UK_t08_foods.html",
+                      "Sha256":  "7cef69e3bbc4dba3bc97231e8befde1a44775e45c0a9ebbe1b9825cd500abc2e",
+                      "Size":  1876,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/UK_t09_lare.html",
+                      "Sha256":  "9d5af5731233d863845c236ee417538f3bc5f85a7b3ec1ecc3836b059a96c853",
+                      "Size":  1660,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/UK_t10_refine.html",
+                      "Sha256":  "7cbdab1685ae37839aeec3c4b2f338f1ad4f0508e668d6510e1922f265e80f14",
+                      "Size":  1296,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/UK_t11_strengthening.html",
+                      "Sha256":  "42495fa29da4b3715837188e9586cf02eecfb8acea4204b0907a546e7992ae48",
+                      "Size":  2691,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/UK_t12_miniland.html",
+                      "Sha256":  "13e71e6bafc860750c72d056ecfb3ef4d9bf132b2f412b4ba42f71665bec0211",
+                      "Size":  1579,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/UK_t13_product.html",
+                      "Sha256":  "0350867778ee32618db121981c3e88c5c6f8f6f8768b17976ade5c680253bf30",
+                      "Size":  1457,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/UK_t14_option.html",
+                      "Sha256":  "ca9455ea3b65dea1c64d49a5b29ec4f4e43ad8e52788795d60a7875cd77ba963",
+                      "Size":  2724,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/UK_t15_plusskill.html",
+                      "Sha256":  "d56699effc84b75ba1a86e711eb1d801e320dd12dcd2efd57e81e58934a70e2a",
+                      "Size":  1513,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/UK_t16_changejob.html",
+                      "Sha256":  "e5ce2ecb10b78a8a987c6c22986ec1185acde3444802c8bd394038cd7dfcf532",
+                      "Size":  3399,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/UK_t17_attribute.html",
+                      "Sha256":  "b643a383f380d26498875067b15ea063cc7dbf05a179be2640f5e5dc5d2ba13d",
+                      "Size":  1961,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/UK_t18_regist.html",
+                      "Sha256":  "0e979b80b32c005f1ce8824e103ae3a57251890c11c9a443913d31b48b771068",
+                      "Size":  1601,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/UK_t19_acts.html",
+                      "Sha256":  "5a845a51fbc29751eda165c6c3ab7bce874a977497d838731622f4f8964a4bdf",
+                      "Size":  1796,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/UK_t20_miniland.html",
+                      "Sha256":  "abb8cadb209a1f5c1d4f33d399de86d5eab4c66da2fdd7b4eb0656bbdd1d24ac",
+                      "Size":  2356,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/UK_t21_stoneinterface.html",
+                      "Sha256":  "52188b469af95dafa0ace969f32304a41991971edeafa31218261ee46a4bf127",
+                      "Size":  1158,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/UK_t22_fairy.html",
+                      "Sha256":  "1b3545b34bafc82d81bbe9ec6b3a7aa8cb549c47f3cad93e1f5e20ad17f77027",
+                      "Size":  1780,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/UK_t23_fairystate.html",
+                      "Sha256":  "e08753de6f0147b4a6f6325b56b83df40e6cf2232ae672227ea828e365bc5ffe",
+                      "Size":  2559,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/UK_t24_personstone.html",
+                      "Sha256":  "0c305952c5fedca72033c69c38fa9d36460ad5d0b1a179cdfc654fa7b119b4a7",
+                      "Size":  2058,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/css/common.css",
+                      "Sha256":  "1b8a719b3c9aade276b000ee688891d5a893f5b15ffb95d6350fea87ec247368",
+                      "Size":  1017,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/01_01.gif",
+                      "Sha256":  "f380b589e6acd5abb06c5c6c3cd7a809912c4970ed626d6e512e783be83e49af",
+                      "Size":  28414,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/01_02.gif",
+                      "Sha256":  "7dd7f14eb442889b594acb9805dc809bc3422eee151fca77a3ca9fb387ba4eca",
+                      "Size":  29409,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/01_03.gif",
+                      "Sha256":  "535d817f7c10d0bd5be4560ebfe1461de8ebaade0cff36026e933ade114b03e8",
+                      "Size":  27256,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/01_04.gif",
+                      "Sha256":  "c3756abc9db6371d29077fc9a0cf5851f64add2df2238ee68c7905513c393243",
+                      "Size":  26478,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/01_05.gif",
+                      "Sha256":  "a2818d80a29b8024a4fa7c08133a5ec34fd36cdb073e8ba1f85dc3f7e4cf1740",
+                      "Size":  23994,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/02_01.gif",
+                      "Sha256":  "40fdc2392df9c162f6615bc86e8e854e319863765d5651a2e95068611b021531",
+                      "Size":  21559,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/02_02.gif",
+                      "Sha256":  "7729b92d33021e0fb11fe5acd8f60280c4c5ec2a5af31025c31c9912d189d3bf",
+                      "Size":  25991,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/02_03.gif",
+                      "Sha256":  "6c23041edada85184adc49b2653d23530a6f80fcc6069b41c81ce20486f2effc",
+                      "Size":  26190,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/02_04.gif",
+                      "Sha256":  "f0f42bfe099e2f3ba12c8bf5669533afb45a665a9cf19873340d4001a05138a4",
+                      "Size":  20378,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/03_01.gif",
+                      "Sha256":  "f43f1716d55a2b4bf2067b9b0c63dd4e447f33e89fbb0ac9280e58164cf2c050",
+                      "Size":  24299,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/03_03.gif",
+                      "Sha256":  "c9a5a18c5d67d7ef3e278791e8c236e7591af5b85532e6b94056e9c6ecdf2e59",
+                      "Size":  26047,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/03_04.gif",
+                      "Sha256":  "0dcbc8595e76560a31ceb3f44f872eb2f620b7a46d657d83f03e170cd104d5ea",
+                      "Size":  25752,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/03_05.gif",
+                      "Sha256":  "b2cdbd23191932df8f4b53fbbc696f862053b66cd181c68f0320764cb4386210",
+                      "Size":  27634,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/03_06.gif",
+                      "Sha256":  "494bfa08fe872948c5185232087f15aeb8b7eb16311eeeb211ff4c9c4fb2ba98",
+                      "Size":  29699,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/03_07.gif",
+                      "Sha256":  "d4a3e7f1cf0f0b0c71b712831b524d891033d293ebe27eaa6af46c95c644b733",
+                      "Size":  25913,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/04_01.gif",
+                      "Sha256":  "25b41d34fae9f83a5866b83f18f3c8e180b7c2bc53d3011dcb00a0479ff9342c",
+                      "Size":  66374,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/05_01.gif",
+                      "Sha256":  "e45685bd9607b174476ea33e8d73ebcb6579e0128de1030512ebe565a88c797a",
+                      "Size":  77613,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/05_02.gif",
+                      "Sha256":  "0d2116d4d7922c0cf718c8bd68198118aa3420504ad50547dfeb16fbaf13a518",
+                      "Size":  22895,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/05_03.gif",
+                      "Sha256":  "3ea508dbca084727a0b3a2729990017a0459d76590bf16eb58e501d2e0ac8d69",
+                      "Size":  20443,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/06_01.gif",
+                      "Sha256":  "753ecb2dbc66376a15bd436fa11692cf6b6309eda7d19f219655403462e485d2",
+                      "Size":  27446,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/06_02.gif",
+                      "Sha256":  "e20f340b22bca90e64b54235bb7b41e80091de2500e5a77bc33b7e37c02f557c",
+                      "Size":  28091,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/06_03.gif",
+                      "Sha256":  "e5409449c2ee798ea595638d43902c153466e485e2cef6198f04465356c2ba98",
+                      "Size":  32732,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/07_01.gif",
+                      "Sha256":  "ce8b099cbf8eb7cd853e9cad3c134941d459485b05f1d44a84751964ab12c657",
+                      "Size":  42968,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/08_01.gif",
+                      "Sha256":  "9d546c26e9c0b53115d0f811968ee554d9d40728ca5c77a52b97885c43361d27",
+                      "Size":  19085,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/08_02.gif",
+                      "Sha256":  "b4803db9c3b9de70704dc42b7e9d0fa8c7bbda38755d1d8d13d790f78e06bf8c",
+                      "Size":  19115,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/08_03.gif",
+                      "Sha256":  "f3baebfd011d9fd275fa477d9595f8b177a0dc0c610ded080b47d5ea87eae986",
+                      "Size":  19087,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/08_04.gif",
+                      "Sha256":  "4ed266ca193005e954c31e1bb06081e2730a6e4361ede0f280928ad21105a161",
+                      "Size":  19103,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/09_01.gif",
+                      "Sha256":  "64a2c4292925ee4cba7d4997817e6228f71bda5d974b33060e80232cb0b00fac",
+                      "Size":  45438,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/09_02.gif",
+                      "Sha256":  "435bc92b7470fb9928b3080b6813fa63e95afedbc8a981e1122c090700db11dd",
+                      "Size":  15021,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/09_03.gif",
+                      "Sha256":  "c2ab4b6aedab1594d54d5db8bfff9491ba4dbe1016d682c0f1dd9add89367af5",
+                      "Size":  21934,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/10_01.gif",
+                      "Sha256":  "9a905424d0ed1e36037452e0a12503f4ee3cdc161d31f0aaf45b332a2769f8cc",
+                      "Size":  55432,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/11_01.gif",
+                      "Sha256":  "9b9df69770792441c8ea1cf2942c2aa1e8f27f0b967aa097ac9790ea8ca4bf01",
+                      "Size":  39160,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/11_02.gif",
+                      "Sha256":  "73df81b40d4a8e7ae971e5b4bf40919bf4f9225677e0a54b4b5cd908e88abc1b",
+                      "Size":  41272,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/11_04.gif",
+                      "Sha256":  "f92cdf1166fe154f5a2162bdae6fbe811e6ff6b7804308ce4731f928175472fd",
+                      "Size":  28211,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/12_01.gif",
+                      "Sha256":  "39e44d638e352c2a678df7741939f08ba927157d8bfbaa4bca420247a87a3ede",
+                      "Size":  40500,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/12_02.gif",
+                      "Sha256":  "4364c7f5f513049656fe296bbb80c1255f1613f3639993550123f59d104a5f71",
+                      "Size":  28530,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/12_03.gif",
+                      "Sha256":  "0d8b5ac1855fe9724d2c325ec0765c0d3c46d41a97025d4a6665e99323adcd59",
+                      "Size":  16158,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/12_04.gif",
+                      "Sha256":  "da82c04ba72b3e5f78eb2104ea35aec2f515ea11e0f5a30f5f6115959f2edfab",
+                      "Size":  1822,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/13_01.gif",
+                      "Sha256":  "022855e40f25f8935bf92a629cf79f0ab61382efa6e92f337440ea8246f776b5",
+                      "Size":  22573,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/13_02.gif",
+                      "Sha256":  "da9eb38e72641cabeb3212bde99d78b45404e3210057be0621c2311a3d032278",
+                      "Size":  35774,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/14_01.gif",
+                      "Sha256":  "f4def8cfc49e6cc140c286762c206d41bfccea8a54f2118cf869d64e6ee51bf5",
+                      "Size":  64651,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/14_02.gif",
+                      "Sha256":  "a8c413a0a4851d80faa3309b2e7bf7b18d7331f251e29bd5764c478799b39bf8",
+                      "Size":  1027,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/14_03.gif",
+                      "Sha256":  "2360d67db71787e0728b8ec0812363506e99612aeb35c25f215a3fc2e0c7285d",
+                      "Size":  1081,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/15_01.gif",
+                      "Sha256":  "eb943137d9815eef1fb86ef08bb2ff15f956610fc4064b40a06fab5c093ea6c7",
+                      "Size":  65677,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/15_02.gif",
+                      "Sha256":  "a5252cbd214bd9a66939115760aae2b5b6da8efcce783650deacc70d7473b1f8",
+                      "Size":  46993,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/15_03.gif",
+                      "Sha256":  "1087d8e6d5f1c8a77049f65a9ba1913aa5aed175e278220d38c34fb85d3a6b62",
+                      "Size":  58488,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/16_01.gif",
+                      "Sha256":  "c49ee052422ec7741936fac058e5f461461d63646c22d41183483d738a38dfc2",
+                      "Size":  9139,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/16_02.gif",
+                      "Sha256":  "49f110a98f8512dca19ed6f8e47aade9ec17171bbf838ce7c8f96fca47c2e129",
+                      "Size":  9469,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/16_03.gif",
+                      "Sha256":  "0db637600a7136efee9797d2aae0b8339d25426c333ce1e87f2db0f3933dff4c",
+                      "Size":  9181,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/16_04.gif",
+                      "Sha256":  "334107c1bababf959cb6e8a9bd6676e518932313539c84ad2483f6cc502ca70f",
+                      "Size":  9065,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/16_05.gif",
+                      "Sha256":  "941b63b06614410e1bab06222a0cf61b6eaba815b1403f356b59247b0cf775e2",
+                      "Size":  2482,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/16_06.gif",
+                      "Sha256":  "c4bbd18efe5fac67b45fa11e3ad0691b51d5a0acfdc232d361d463bf8557234c",
+                      "Size":  2274,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/16_07.gif",
+                      "Sha256":  "1e17356c23212e29d9751ec071a2fe9cb084a19211741671e7817e2320de8228",
+                      "Size":  2254,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/17_01.gif",
+                      "Sha256":  "6c69cfa1f2a1a04d062b5d230e069e6e1d2caf0ddf769910012ea5ea7951023c",
+                      "Size":  32421,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/17_02.gif",
+                      "Sha256":  "a4f3ef6c367a9c3fc38007f3f4ad584919e19d3f85bc472994cb30f4dc8c2b21",
+                      "Size":  50828,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/17_03.gif",
+                      "Sha256":  "e0c0c2f3a94c769dd3ff66434c8ea5df085825bf0a21df238d8073a69df0f5cf",
+                      "Size":  46514,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/18_01.gif",
+                      "Sha256":  "786f6abd00b66adbb997cfd0f778a6f13ae2b23ab50588d74501de00e06d25a6",
+                      "Size":  75193,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/19_01.gif",
+                      "Sha256":  "366acce77d51f5027e6e6ce030e5ae62abeb438f65cdfd1aff002096353b7585",
+                      "Size":  13068,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/19_02.gif",
+                      "Sha256":  "d647b9084aa449a3c317adbc1e5021b2f8bff5c3434397a9917616b6a76f3bff",
+                      "Size":  24880,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/20_01.gif",
+                      "Sha256":  "0585f5a6cfd27e0f633c5139109e3944d13608856cbb7b4568e2f5c82002d126",
+                      "Size":  28315,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/20_02.gif",
+                      "Sha256":  "687ff6ffae88eabafa68d9f11d5c1cdc40ec02b38bd989735876af028a5539d1",
+                      "Size":  27111,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/20_03.gif",
+                      "Sha256":  "619dcce06d4b43dd48a3743a7b30dea4447c7e1299ea548b37b27bde6394c789",
+                      "Size":  20002,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/21_01.gif",
+                      "Sha256":  "60a29836b0ebb9407c178afe8c748674a8c9929a235099c5b3fff3c76dcf6681",
+                      "Size":  65712,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/22_01.gif",
+                      "Sha256":  "c2ecc012bf54ead494017bec8d3e812aa226fd581e462eeae24c87450034188f",
+                      "Size":  3317,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/23_01.gif",
+                      "Sha256":  "399e1c49be7e5100bb1ce54553695334f946fd2b4da4c119462044f96c4292c8",
+                      "Size":  950,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/23_02.gif",
+                      "Sha256":  "dc7e914213d97d51066c92359840d95df06599306f64513ae50b0e31056a3ae5",
+                      "Size":  1205,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/23_03.gif",
+                      "Sha256":  "f3bf25193a543a348d99a2727175f3dbbc4e23e6e65571a9c58899a852fd5f19",
+                      "Size":  1057,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/24_01.gif",
+                      "Sha256":  "338c3598742ec1b4b77fc0388c93aec691d74e2475d8dc8207d725f439ebcb1e",
+                      "Size":  37560,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/24_02.gif",
+                      "Sha256":  "7d5fc60101509af8efda07f5e9f3ed9679f4cb654f736d4be14e8b0ab7a1c165",
+                      "Size":  13158,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/bg.jpg",
+                      "Sha256":  "beb211193fd3bd6f43b123cffefcc04e2519aec30fed11de24508c5100a62e78",
+                      "Size":  15217,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/blit_main.gif",
+                      "Sha256":  "cc3235119f36a3f27fa70a48b4a4b85bf43e391d956a1ff6933a71d367513c34",
+                      "Size":  253,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/blit_sub.gif",
+                      "Sha256":  "5a67e81ff134634f2f49fe02dbdea97dfd12985d0db3f93179e6170e7ded9ac4",
+                      "Size":  218,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/TutorialData/images/blit_sub2.gif",
+                      "Sha256":  "6456c72086721517f34dc848baecbb4c1569c0302efc174741328c3014cdd1e6",
+                      "Size":  197,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/(EU)Update_Guide_March_20230306.doc",
+                      "Sha256":  "dea618fab729d9b586aa66e16d658cdcf899ff0152b234a1ddbf4d9f2c6d227e",
+                      "Size":  541696,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene1.NAM",
+                      "Sha256":  "33c057861c0bc94a704c6d1782c3332a3c5a03996529f7b29d44d17925273e7c",
+                      "Size":  17596420,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene1_CZ.NAM",
+                      "Sha256":  "359f2d9b4e6d27ee1eab545f8b18416e31aea256dfcdd4f774bfde1f26359425",
+                      "Size":  17596420,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene1_DE.NAM",
+                      "Sha256":  "33c057861c0bc94a704c6d1782c3332a3c5a03996529f7b29d44d17925273e7c",
+                      "Size":  17596420,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene1_ES.NAM",
+                      "Sha256":  "2305bc8810a0b4d57ecbbbc7c781330f287360b245c19b371af285c19a418e25",
+                      "Size":  17563652,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene1_FR.NAM",
+                      "Sha256":  "796a28cd3775db0528c5002b4d7da4b6132053f759bc1c7d6fc27033224dece5",
+                      "Size":  17596420,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene1_IT.NAM",
+                      "Sha256":  "b146e345549f82e28410ab121ef7bb70d3b9e8689a8964ea25d158f6015bb9fe",
+                      "Size":  17596420,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene1_PL.NAM",
+                      "Sha256":  "3dec77a43e050ea6e6bed2e0e405eacff09101d393d933a3e98fee28b03414b1",
+                      "Size":  17596420,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene1_TR.NAM",
+                      "Sha256":  "1fb591170470d34fc05f4fba66eb8f1d71f74c1fa2a03c041cf45b0af0bb1014",
+                      "Size":  17596420,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene1_UK.NAM",
+                      "Sha256":  "9217c6ee2f8f9fd2848bef3ecce93c2e153b3f0d5bd48dce180899697b17e37c",
+                      "Size":  17299460,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene2.NAM",
+                      "Sha256":  "5647396aac54d5930f2e22a29d9173735c210a50533931638e2be04a21ce2b65",
+                      "Size":  17809412,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene2_CZ.NAM",
+                      "Sha256":  "0aed5bed5f95a9bb9ba6c2b71929ff65e722c5a7c5184bb91b8fb65b7c6a23c8",
+                      "Size":  17809412,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene2_DE.NAM",
+                      "Sha256":  "5647396aac54d5930f2e22a29d9173735c210a50533931638e2be04a21ce2b65",
+                      "Size":  17809412,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene2_ES.NAM",
+                      "Sha256":  "4ae312a218fe02a8876e74b8edfe533c2d595be1a6421874aa0c8450946de339",
+                      "Size":  17809412,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene2_FR.NAM",
+                      "Sha256":  "1e8b1a46e4e1140f2b83c3aecfb826ce2681a1f96160f87f252215b411a4da81",
+                      "Size":  17809412,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene2_IT.NAM",
+                      "Sha256":  "57488d2553fdba4d7da4e0c072ac7493e793a13d29c4b6b4be8d38adb47d83d7",
+                      "Size":  17809412,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene2_PL.NAM",
+                      "Sha256":  "053c375a5b7c166e54a63abb35d63d19ae2f4eef382decf336ffcb80a920341c",
+                      "Size":  17809412,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene2_TR.NAM",
+                      "Sha256":  "7b8182040f2741c2b77b465071c0ed39d06af2e0c444b2ae275161fec7ea524a",
+                      "Size":  17809412,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene2_UK.NAM",
+                      "Sha256":  "8311c9fb0a10bd26852aaaf0ce98403b279987de5f8180cbbc9794e3d288dbf2",
+                      "Size":  17516548,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene3.NAM",
+                      "Sha256":  "faadc34aefaba65ad6bcbdac62a8f88624a6404b99467f13d1943c0107aaa19e",
+                      "Size":  17119236,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene3_CZ.NAM",
+                      "Sha256":  "95a52d6c54b5e4ef807bf76ce91c8de6b7a30d5e4c43528cee42582d99c15c9d",
+                      "Size":  17119236,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene3_DE.NAM",
+                      "Sha256":  "faadc34aefaba65ad6bcbdac62a8f88624a6404b99467f13d1943c0107aaa19e",
+                      "Size":  17119236,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene3_ES.NAM",
+                      "Sha256":  "564bc442231d0cdaf0798563266999fc708e0370944a7973289da06b41f56c07",
+                      "Size":  17119236,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene3_FR.NAM",
+                      "Sha256":  "62f0f5c3f9cdb2d680c3f34ce0615c18d6a7a0fb12956408e8e0d15a13ae06cd",
+                      "Size":  17119236,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene3_IT.NAM",
+                      "Sha256":  "5d2615e93f2c3fc64f5a7314f2e2ea1a0cbd0bc539f25125f04e2e2cbd09e0d2",
+                      "Size":  17119236,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene3_PL.NAM",
+                      "Sha256":  "33fb032f30bc6bf1796558b4b1ea698e66e82cb1349f7db099b6e5113bac9b0e",
+                      "Size":  17119236,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene3_TR.NAM",
+                      "Sha256":  "07c8620e4e7ccc333c124b7904ed39b1545ff5d3c28a110f8e6a07b21b647018",
+                      "Size":  17119236,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene3_UK.NAM",
+                      "Sha256":  "aa4b62dd6aefaa61b004ccec7769770367b25d91fc21bfeae868b273e37b782a",
+                      "Size":  17119236,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene4.NAM",
+                      "Sha256":  "45476c1df59c1ca9ff030b33029ae49deb44642f19208ea634471253c1d14487",
+                      "Size":  15022084,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene4_CZ.NAM",
+                      "Sha256":  "fbe38d504a059d2baf69f8ec68339a4a819d777b98ecdea9975be150bf48c3ed",
+                      "Size":  15022084,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene4_DE.NAM",
+                      "Sha256":  "45476c1df59c1ca9ff030b33029ae49deb44642f19208ea634471253c1d14487",
+                      "Size":  15022084,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene4_ES.NAM",
+                      "Sha256":  "806b03dc8cf028b6133df2255a7b7362c52eeeba997a4f6917d57bd19f9a9225",
+                      "Size":  15022084,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene4_FR.NAM",
+                      "Sha256":  "7de1da02b77856c68d18a99c2ac37c463162db322b4a648fd25bb62fd6d4c060",
+                      "Size":  15022084,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene4_IT.NAM",
+                      "Sha256":  "74db1c41374440cece3f195369aca20c9c0d9df30f4445bba36593f1ffc757e2",
+                      "Size":  15022084,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene4_PL.NAM",
+                      "Sha256":  "ee1c54213dd0a67d2c009fbb5cc431d8afde64d8dd337b3039bea263347bac0c",
+                      "Size":  15022084,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene4_TR.NAM",
+                      "Sha256":  "8d623fd8a6130e52101ac3977e2064c43f071871c0e8ed19c8741f5a81a27fc0",
+                      "Size":  15022084,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene4_UK.NAM",
+                      "Sha256":  "b55d854cf74d8bd557e88783d19e332080f62557ede414369371e2bbd661c12c",
+                      "Size":  15022084,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene5.NAM",
+                      "Sha256":  "57b3a4e06114312d384b3c33bcae61bc65c75dc3abe0a965a42b091f6a5cf97b",
+                      "Size":  8531972,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene5_CZ.NAM",
+                      "Sha256":  "7cceb4e2cc2ba7e0e4585ce6700072cf3391d6ff839b95a258123f59c2da0f8d",
+                      "Size":  8531972,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene5_DE.NAM",
+                      "Sha256":  "57b3a4e06114312d384b3c33bcae61bc65c75dc3abe0a965a42b091f6a5cf97b",
+                      "Size":  8531972,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene5_ES.NAM",
+                      "Sha256":  "e2079fc6a10985092f38772dcd9625a55fcfb1da30d3c6a6a6af9b771ea7dc6f",
+                      "Size":  8531972,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene5_FR.NAM",
+                      "Sha256":  "8b1a08eab27372b8a0112b95da8f99f333d311d440fe89c664115f0fedd2373b",
+                      "Size":  8531972,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene5_IT.NAM",
+                      "Sha256":  "3603f0fc38a67d31b90514844d69a8be5a4875b777f2c1b5dd7cfcb9c7a594cb",
+                      "Size":  8531972,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene5_PL.NAM",
+                      "Sha256":  "7e85230dce6924ca2c7a75bb54b363005ced519bf3fa4d42fd184b98dab7c1d2",
+                      "Size":  8531972,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene5_TR.NAM",
+                      "Sha256":  "c203afa8da464979bdac44da31fa31c81ab1ed3417ec14e08f69823cefd1e40f",
+                      "Size":  8531972,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/ActScene5_UK.NAM",
+                      "Sha256":  "646457d7c36f9e0691bd558be73c5f87ccaa9e726d81434d194511aaaf2718e7",
+                      "Size":  8531972,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (1).30000",
+                      "Sha256":  "3138e84c5feb80b5284d9a4f37f300942d3e24ae9c3ad4b770c3e5a93d865d05",
+                      "Size":  3143097,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (10).30015",
+                      "Sha256":  "0b4006ed31729bdfc0b5200852b9f2e829865ef35b87c537402b86f7990c0d69",
+                      "Size":  3563418,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (104).30104",
+                      "Sha256":  "9bc0626c14c96ddddd710f432932f2728ba5eedc57885848cc4d2ba4148f9713",
+                      "Size":  8997394,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (105).30105",
+                      "Sha256":  "287a15f8d365e867df359abd01bdca241ecacadb0c7ed91f96a9cbdfe01be1af",
+                      "Size":  1091433,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (106).30106",
+                      "Sha256":  "c4e2e799e4dd9003071d7adc663dd28a7b4ada9d1d1dcd8e8a4ab12454aa795a",
+                      "Size":  884623,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (107).30107",
+                      "Sha256":  "85dfd35130eeb725118444404c33507c26161de537cb043cfe5a48f3a53639c2",
+                      "Size":  836095,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (108).30108",
+                      "Sha256":  "c347173cda6660c56456f11a4163b55de2839150e411d2d79581b4d2f25a9f8b",
+                      "Size":  889100,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (11).30016",
+                      "Sha256":  "869eb8d32190609d13931e7845b1a38c1164f5a310783bf91bb93e18802d0cf2",
+                      "Size":  2767624,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (11).30111",
+                      "Sha256":  "8c9ba34b967230c5b28c93dca9c8eda5229a7ae5cdc947f1defe9a284385c700",
+                      "Size":  905184,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (112).30112",
+                      "Sha256":  "57b35dee760b9c93bda927b1464c6a3aaad53ad5acf1fdf6d54d5bb93626fc07",
+                      "Size":  2206355,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (113).30113",
+                      "Sha256":  "bd0d1eebb2dc2f83aef85efccfb55defe6d23f56a8abeef57256637420aacaae",
+                      "Size":  1347477,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (114).30114",
+                      "Sha256":  "ef448b52d37065b18e3711a412a23a51b003ffc0f6c44fd3c03ce9fafd6d92f9",
+                      "Size":  558511,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (115).30115",
+                      "Sha256":  "33b6d9f53c45346f73d316d293219747b85cd8a31af6e409543d2d0826007d5d",
+                      "Size":  2411813,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (116).30116",
+                      "Sha256":  "4c6ff29ff65178f10749e538d5a178af40755cd740b6085d2fa321a5d987284e",
+                      "Size":  1183630,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (117).30117",
+                      "Sha256":  "7ab3c3b84026ee8b245dfcf3d9ae2aefb8ed7376bbf4ec7568ad195d2b81a274",
+                      "Size":  1099655,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (118).30118",
+                      "Sha256":  "ecbeccf8de9301a732e92468a79eb32faca1802eb7e2b41101dcdcbb8d0f8d7b",
+                      "Size":  1026305,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (119).30119",
+                      "Sha256":  "500fc0c124beef0b75dbabee5a6db58c028bcbb95648acf37d5cd2707836e139",
+                      "Size":  1201791,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (12).30017",
+                      "Sha256":  "4b6742041f070804e4d4b46d261bde1f54e6d402da370e4c4c563051cb68895f",
+                      "Size":  3686026,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (120).30120",
+                      "Sha256":  "51095d4ca090e5240e356a3d56cc5b83a409f25355e633a2b0c4413b759e1807",
+                      "Size":  1540660,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (121).30121",
+                      "Sha256":  "ec7623482c8e1b131ac139f532faea98e6b119906f792c0e3b820ca5e6fd0829",
+                      "Size":  1094727,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (122).30122",
+                      "Sha256":  "89b94fd3f52d2c4d593af198473855a6448a7907899ca1db2130effb30c3ed0c",
+                      "Size":  1397134,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (123).30123",
+                      "Sha256":  "07e829cace2361a1a8ff00886e63ff740400b568475c040136f64ccd3aa6fe84",
+                      "Size":  3630703,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (124).30124",
+                      "Sha256":  "2ee0d28a96ab7249d5c79a801a62a8a775bff9315e4b75c3c7feda9dc46be6a0",
+                      "Size":  1655833,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (125).30125",
+                      "Sha256":  "72f9bd5e03cc092c5006747832b7901ef9c519d30f882532ee2695063b571ad0",
+                      "Size":  1282584,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (126).30126",
+                      "Sha256":  "7257b2b8a35ed55cfbcb2b58c2389b4b4657ed31d9a4f55c0061d15690331ed0",
+                      "Size":  1590664,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (127).30127",
+                      "Sha256":  "2d9777b16c7ce2d9fe94bc64f9a59aa60ea0ad35dbe46c1fcc2176944955c1ca",
+                      "Size":  959022,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (128).30128",
+                      "Sha256":  "d2a5f54ec197ab7ad9266d17ddb5d78cd8b0e9457a5960f037e417919241a734",
+                      "Size":  1221569,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (129).30129",
+                      "Sha256":  "d1480a927cae1cdac22c3804cb073b6adb81d0fc0e9b9b93e05b8135f87c3f13",
+                      "Size":  1117522,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (13).30050",
+                      "Sha256":  "7683e7760fecd379c2c60c8edb8110c8056af46e64e18d1586086a4961dd374d",
+                      "Size":  3688116,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (130).30130",
+                      "Sha256":  "648b842b383b7952c5ad8f6e3181401b9e4cd9fab5b8156eedbe972817e5f1ee",
+                      "Size":  959032,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (131).30131",
+                      "Sha256":  "e5e7572e8456111560ce1d99d29b44462dff61161f7dc350182e4b27aea8ac38",
+                      "Size":  1221622,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (132).30132",
+                      "Sha256":  "aabe0157a9810dc70218b10c0b8e27aa6017a479ca6feae70cdee3dc13f95c79",
+                      "Size":  1117608,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (14).30051",
+                      "Sha256":  "87a6c20935df2903ce1acef5558625ecef4ac4890896d5a86c9cd46c6bc69380",
+                      "Size":  2853870,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (15).30052",
+                      "Sha256":  "6b601ae35a04449dd4d72fa62d37d963b82150d2c9109be2837a3e38c78397bd",
+                      "Size":  3355839,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (16).30053",
+                      "Sha256":  "7f3825f92e2ef8e30a57ee841b20ef0e16ffcc4844c4ac5e82a579a8f9e81bb9",
+                      "Size":  1733739,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (17).30055",
+                      "Sha256":  "28b4249940327854a952db4226f5528f73e6230317727159e23ba1e498972ab8",
+                      "Size":  2894683,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (18).30056",
+                      "Sha256":  "894c5e43a672ba93176426653a5d4e15413e83c947359e4db44ee20afd4de719",
+                      "Size":  2306615,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (19).30058",
+                      "Sha256":  "9858c67966add85c494d006620b4760e1de9bcbeca9fbf6814b2483f300e36d8",
+                      "Size":  195649,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (2).30001",
+                      "Sha256":  "03306d06c4af55edbbc96ee3a70b1d5071862b4dcd78db5f9fa50a794418ac63",
+                      "Size":  4030007,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (20).30059",
+                      "Sha256":  "9ac643e85ca9ecf15dc4a65509b73780cbb0ce0c622fea4f148e039009419fb8",
+                      "Size":  280077,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (21).30067",
+                      "Sha256":  "e22f0715753f29cdbe88925ab73f7ddf3953d6db6538d8b35b9937a2eb51eff7",
+                      "Size":  102026,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (22).30068",
+                      "Sha256":  "442b38af81b785d47bb659efefce7e1dbe62c560a9ee64f009a6f0f7b4fcf666",
+                      "Size":  188352,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (23).30069",
+                      "Sha256":  "ae93a3ae7e474d08b0bb4f0bece3ef644cdf9694f1c15e9960d322b1ae9994a7",
+                      "Size":  434304,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (24).30070",
+                      "Sha256":  "2cc24339d50d28e26de1166eda9d09a1d02d3b0344ff2e1cfc1446c56ff62091",
+                      "Size":  82800,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (25).30071",
+                      "Sha256":  "ace7934c2d85e489f083e4dd6bda276d043bf86dfa8276c1c84912e23aa1ff95",
+                      "Size":  42258,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (26).30080",
+                      "Sha256":  "d3696b96ac4d68fec82e9706984b6781b3849cabf24bf92952d5cee74e22f83b",
+                      "Size":  1723708,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (27).30090",
+                      "Sha256":  "c94b214db4e95911b6b577cae59af0155b1dc4b395176aa2208514898e3cd1cf",
+                      "Size":  2202961,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (28).30099",
+                      "Sha256":  "3ba06f2455a6686456190f2f5cdced2d0f9475898f3e3f5a5a0a743762b28a2b",
+                      "Size":  2923251,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (29).30100",
+                      "Sha256":  "5a110d4600a534fe9b2dea2940b406db3583f57c00c36b61931ad424f1a1b98c",
+                      "Size":  346115,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (3).30002",
+                      "Sha256":  "3909fddb2f8c51216500b7d3abfc24ec6281511a18f1eb40b01b4d30f33d175f",
+                      "Size":  3352495,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (39).30026",
+                      "Sha256":  "4d6934fb0f90aedfde1b0d2325aabeef1267d989c6e6c505469db52db4d731b9",
+                      "Size":  4007263,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (4).30003",
+                      "Sha256":  "df738346841e0c43c4369ca2a40b50d5b267e56b17014bf00435f45c730640b0",
+                      "Size":  1845752,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (40).30027",
+                      "Sha256":  "5981ba6cc505b883fd1ce1cc8cf54102b56c4401aaa23a186ce3d0ff988d7e9b",
+                      "Size":  2365937,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (40).30029",
+                      "Sha256":  "5981ba6cc505b883fd1ce1cc8cf54102b56c4401aaa23a186ce3d0ff988d7e9b",
+                      "Size":  2365937,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (41).30028",
+                      "Sha256":  "e1b84e8a786b000ed4903e497f911312a763d168fca01317d8b44a74b56dcfc8",
+                      "Size":  2385163,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (42).30088",
+                      "Sha256":  "b45602e8e545d57fdb38a32a4b3562d70fe3ac46ddcdd710491f37fe3447dabe",
+                      "Size":  7048362,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (43).30006",
+                      "Sha256":  "552b333f786aadec3c1246b7fc785e054a50956ba56379e78bdaf310a09eb8ef",
+                      "Size":  4269351,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (49).30031",
+                      "Sha256":  "71233164a2573f8838d31dcb995267b3aeaaca471788c127772f93600262e809",
+                      "Size":  3971346,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (5).30004",
+                      "Sha256":  "41006dbe1f85d8341bdabac0a3e10036d5b81c9d0e6f2e955d2b24f8a5a89735",
+                      "Size":  2684596,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (50).30030",
+                      "Sha256":  "b06c8a3061cfa78ee1135d2d99889d894811ed354cf0b475b14a20eba36a4358",
+                      "Size":  1883640,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (51).30007",
+                      "Sha256":  "def30ff2694ce9b0e2fd5d400d2390f369e28d9ea5c00fed32f8690e2c8dcea3",
+                      "Size":  1676272,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (52).30008",
+                      "Sha256":  "76fddb7f174635483088b75b703d5df009461ae0a23b5c30543f1ecf436d57d2",
+                      "Size":  3552689,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (53).30009",
+                      "Sha256":  "028eacee026adfd39a5738cac0cdc546602b48e65fa3344157e4a0e2b2cfd43b",
+                      "Size":  1781367,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (54).30010",
+                      "Sha256":  "5f6174a1256e56b823e885bca103b681832e27f7504475afc0de2a94cba59e08",
+                      "Size":  2155987,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (55).30082",
+                      "Sha256":  "5a0aa28ae2b6e0c2ac2ceafa6c31b6ead0e12e27aa1fb2bf1d85250820854e08",
+                      "Size":  3259560,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (56).30038",
+                      "Sha256":  "225b508b67c8a58c867912b81e098305c06ac20d7879f3b02807b95badcc88d5",
+                      "Size":  2245715,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (57).30039",
+                      "Sha256":  "f70efed50f8c1997b962aa38118890b71be53c6ab8a3461b1485d801741e7a77",
+                      "Size":  1938638,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (58).30040",
+                      "Sha256":  "f4338b97b8c5bdfcc059f703509b857cc4b0c2c42e5b95b5b60de1a6d01945f0",
+                      "Size":  1359206,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (59).30041",
+                      "Sha256":  "3b8111b4db469cee004312c9e0846e4f83a2f53a8061253d629a3f7fdeaf9570",
+                      "Size":  2719107,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (6).30011",
+                      "Sha256":  "ce4db7aaacded4fee0fd78287402e599e5b9754aa3b79ee1003f6d1dffa6d89a",
+                      "Size":  2618830,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (60).30042",
+                      "Sha256":  "95ec21500c1d460911937e1d9c5ee385f89de941ad2d97f1033db4f7afd31644",
+                      "Size":  1345871,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (61).30043",
+                      "Sha256":  "ac1fc7a87482f6cc44ba5178137ef9fe7398e593e9191992d6085f46573d2709",
+                      "Size":  1902928,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (62).30044",
+                      "Sha256":  "2d764bdb9fca9d40bab82b8b9480fe37876438133a8ab1987bc0891ced111457",
+                      "Size":  2386347,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (63).30045",
+                      "Sha256":  "cca8ae1a03ee83b28fc8f2e269fa1de504ad77aacbe353eb1b82ec435679a8af",
+                      "Size":  1729230,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (64).30046",
+                      "Sha256":  "54a9809f2492b5609538549300572cc9f608775c5f87fbe495285389ffd6017e",
+                      "Size":  2207583,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (65).30047",
+                      "Sha256":  "14cb2d82c5a228760d51f91a6cac872ca6c911e2316a0eb768865421ea59c1ab",
+                      "Size":  3485589,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (65).30101",
+                      "Sha256":  "beb7633c7d612480e83c0d399a08084c118243aa689c82261a02aafac694e494",
+                      "Size":  1582360,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (66).30048",
+                      "Sha256":  "77d49240fc9f968213ecb0ba255a32828cd0668b81543dd74cb346e8df4ddac5",
+                      "Size":  1860701,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (66).30066",
+                      "Sha256":  "a1e7e423401487e72c51045c0ba943de70beedeed51b485d94879f42aa0dd4a6",
+                      "Size":  937244,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (66).30102",
+                      "Sha256":  "adb42db67b1039bd9ada55aef8f399a33cdcaebbf7c9761dbbeffeb8dee3adb7",
+                      "Size":  1478915,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (67).30049",
+                      "Sha256":  "c270f42a07a2dcdc66874c94a90642e89a5d72ea6e485f2af6b0adb0e929c1f6",
+                      "Size":  3444855,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (67).30777",
+                      "Sha256":  "b31f64dcd42bfbe0fa4a817c00b0a407755bcdfbeee25f2802272c66ff22956f",
+                      "Size":  609949,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (68).30032",
+                      "Sha256":  "2798b58a791913c226bec6dc54d003a02229d22221997d8217617fd6fb7cd00d",
+                      "Size":  495171,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (69).30033",
+                      "Sha256":  "318d4e24b3e0ce0dd76e100ef258c9ff74ffcff68cc0c6286e32dd5ffc46e08b",
+                      "Size":  481682,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (7).30012",
+                      "Sha256":  "b1eaa55889cf6416acc8873c1d8b72fe880c87d4100bac089838336bc02a6836",
+                      "Size":  3308609,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (70).30034",
+                      "Sha256":  "bb6501b42edb921903ba3b06874fd65db8dc77cf1a3c6fab6e31c0070456258b",
+                      "Size":  556783,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (71).30035",
+                      "Sha256":  "1609b6df20f947f58ad734b4b6e14868a9e5fef7664c9d43d2f43602611974ca",
+                      "Size":  603509,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (72).30036",
+                      "Sha256":  "024fbda885144f99a5a8c8768eea77fe1b9867c8a60c6aad4f324fa3040dac02",
+                      "Size":  627772,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (72).30101",
+                      "Sha256":  "beb7633c7d612480e83c0d399a08084c118243aa689c82261a02aafac694e494",
+                      "Size":  1582360,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (73).30037",
+                      "Sha256":  "8e9f5a8e40f1ea139e1906fade155d574934b12ef98e0efb7ac97247d71ff936",
+                      "Size":  485015,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (73).30102",
+                      "Sha256":  "adb42db67b1039bd9ada55aef8f399a33cdcaebbf7c9761dbbeffeb8dee3adb7",
+                      "Size":  1478915,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (74).30062",
+                      "Sha256":  "1b9fd413cbe2d2ec2ae0e26d9d19f95897b4817408b21aab0366fde925e35f98",
+                      "Size":  639686,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (74).30074",
+                      "Sha256":  "5a795857c065f81444b198b27d5fabea21db3ad5a0b30f8d44f46d3c4fe7352a",
+                      "Size":  1204782,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (75).30063",
+                      "Sha256":  "d22ac9ee5ade17c0228b705a7b3129659121816cb4fe9b70e9621cbdaf4eb3e6",
+                      "Size":  1057397,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (75).30075",
+                      "Sha256":  "182bc262e11237867e2e1269281502323114aad3917cfe4e90b75d2a41e0dd42",
+                      "Size":  1055671,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (76).30076",
+                      "Sha256":  "90408998653bebd984b2446194527b48dac298f79b8cb2648672e98eb704f18e",
+                      "Size":  1335691,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (77).30077",
+                      "Sha256":  "70ceb974d6b375ebf80d883fb7bacbffe8a327a6fad0709baee334abce26b86b",
+                      "Size":  868063,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (78).30078",
+                      "Sha256":  "60a479411200e17d3621d9330078c65cec887c9bdfd1cee65b25119bbbbea28b",
+                      "Size":  1167978,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (8).30013",
+                      "Sha256":  "bec6a8485bb67bc7c4bb54249c316cf27e5a6f79daed03b302233abb8b5307d4",
+                      "Size":  1759049,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/BGM (9).30014",
+                      "Sha256":  "b1df78a34ca332df8b81431834575db568ec81a758473768b2c2b33aeecf730e",
+                      "Size":  525282,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/eyecatch1.NAM",
+                      "Sha256":  "54a90f3874f0bd884163b817eff73a3642c6fc4edb473a3fc3b9f0d8415d56dc",
+                      "Size":  2111492,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/intromv001.ntm",
+                      "Sha256":  "f091d3d47af3d2fd495b13490b148a749e90a6942aa3e1c6c763cbec96dd2742",
+                      "Size":  3655684,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/lsiE945696cJmjyhvWSM0SylWqhSqfTb.olr",
+                      "Sha256":  "cdd5ccd924396dd2c0d78b423d0c0e28c4df5c13e26fdffd5e5d6ddb2c25a6a7",
+                      "Size":  251958706,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "NostaleData/wave/S7cev7ThnX1lzDXoI6O7tmQR4RtO9NQl.olr",
+                      "Sha256":  "c029896bc311defde4b76b8c76957d0bd1ac4ff64691c1d2bf85ae67620e3289",
+                      "Size":  1899064,
+                      "Compressed":  false
+                  },
+                  {
+                      "Path":  "libcef.dll",
+                      "Sha256":  "2b55dcde5103969d4db5a48d54e23eee2485ca31e7115043b45d56483fcbbd8a",
+                      "Size":  167478784,
+                      "Compressed":  false,
+                      "Url":  "https://github.com/Brickbrook/nostale-cdn/releases/download/cef-v1/libcef.dll"
                   }
               ]
 }
